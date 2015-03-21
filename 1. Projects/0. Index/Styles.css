@@ -16,7 +16,6 @@ h2 {
 
 h3 {
 	font-family: sans-serif;
-	font-style: light;
 	color: darkgrey;
 }
 
@@ -30,9 +29,10 @@ li{
 	padding: 5px;
 }
 
-a:link, a:visited, a:active {
-	color: #333333;
+a:link {
+	color: #2a2a2a;
 	text-decoration: underline;
+	font-weight: bold;
 }
 a:hover {
 	color: #000066;
