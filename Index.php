@@ -18,7 +18,7 @@
 	
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="basics/">BASICS (First Acitivity)</a></li>
+		<li><a href="basics/">Activitiy 1.0 (Basics)</a></li>
 		<li><a href="activity-1-1.php">Activity 1.1</a></li>
 	</ul>
 	
