@@ -33,16 +33,20 @@ li {
 	font-size: 13px;
 }
 
-a:link {
+a {
+	font-weight: bold;
+}
+
+a:link, visited, {
 	color: #2a2a2a;
 	text-decoration: underline;
-	font-weight: bold;
 }
 
 a:hover {
 	color: #000066;
 	color: white;
 	background-color: #0000ff;
+	font-weight: normal;
 }
 /*###MEDIA QUERIES###
 
