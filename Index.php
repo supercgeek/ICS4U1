@@ -18,7 +18,7 @@
 	
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="basics/">Activitiy 1.0 (Basics Page)</a></li>
+		<li><a href="basics/">Activity 1.0 (Basics Page)</a></li>
 		<li><a href="activity-1-1.php">Activity 1.1</a></li>
 		<li><a href="activity-1-1.php">Activity 1.2</a></li>
 		<li><a href="activity-1-1.php">Activity 1.3</a></li>
@@ -26,7 +26,6 @@
 		<li><a href="activity-1-1.php">Activity 1.5</a></li>
 		<li><a href="activity-1-1.php">Activity 1.7</a></li>
 		<li><a href="activity-1-1.php">Activity 1.9</a></li>
-		<li><a href="activity-1-1.php">Activity 1.3</a></li>
 	</ul>
 	
 	<!--JQUERY-->
