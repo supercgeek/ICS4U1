@@ -30,8 +30,8 @@ li{
 }
 
 .source {
-	color: lightskyblue;
-	font-size: 10px;
+	color: #888888;
+	font-size: 12px;
 	
 }
 
@@ -42,7 +42,6 @@ a:link {
 }
 a:hover {
 	color: #000066;
-	text-decoration: line-through;
 	color: white;
 	background-color: #0000ff;
 }
