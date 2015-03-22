@@ -10,7 +10,7 @@
 	<meta name="author" content="Cameron Burgess">
 
 	<!--OUTSIDE LOAD/INSTALLS-->
-	<link rel="stylesheet" type="text/css" href="/Styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="http://use.edgefonts.net/abel:n4:all.js"></script>
 </head>
 
