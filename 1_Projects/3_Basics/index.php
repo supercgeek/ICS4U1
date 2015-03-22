@@ -15,12 +15,19 @@
 </head>
 
 <body>
-	<h1>A</h1>
-	<h2>A</h2>
-	<h3>A</h3>
+	<div id="topA">
+		<h1>Hello</h1>
+	</div>
+	<div id="middleA">
+		<h2>您好</h2>
+	</div>
+	<div id="bottomA">
+		<h3>مرحبا</h3>
+	</div>
+
 	<div id="mainText">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, libero eu dictum efficitur, sem lectus convallis mauris, ac faucibus risus neque vel ex. Vivamus sollicitudin luctus purus, nec accumsan augue varius eu. Suspendisse mollis eget odio in sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eget ex suscipit, fringilla sapien sit amet, dapibus tellus. Nulla sit amet sollicitudin libero, sit amet imperdiet leo. Nulla vitae venenatis diam.
+			Hi Mr. Braun, <br></br>Sorry about taking so long to get started. I've had a bamboziling start to the year, anyhow, time to begin — I can't wait to hear your feedback. <br></br>Cheers, <br>Cameron Burgess <br></br> P.S. You gotta' love unicode.
 		</p>
 	</div>
 	<a href="http://supercgeek.tumblr.com/post/114279693200/pol2071-2048-our-new-world-from-weyland">

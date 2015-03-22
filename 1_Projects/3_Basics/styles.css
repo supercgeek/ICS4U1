@@ -12,7 +12,7 @@ h4 {
 }
 
 h1 {
-	color: #000000;
+	color: rgba(255, 255, 255, 0.9);
 }
 
 h2 {
@@ -23,11 +23,41 @@ h3 {
 	color: #d3d3d3;
 }
 
+#topA {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://38.media.tumblr.com/66a341b002151d9c9c918132a57e2fbb/tumblr_nl99bwP5Qh1uqnsbuo2_500.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+#middleA {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://38.media.tumblr.com/2b074ccaea9e25ccb0404dba94dc62cb/tumblr_nl99bwP5Qh1uqnsbuo7_500.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+#bottomA {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://33.media.tumblr.com/fad6883b4829f5900ebd43eab6cf4d0e/tumblr_nl99bwP5Qh1uqnsbuo8_500.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
 #mainText {
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 p {
@@ -41,10 +71,14 @@ a:link {
 	text-decoration: underline;
 	font-weight: bold;
 }
+
+img {
+	width: 50%;
+	}
 /*###MEDIA QUERIES###*/
 
 @media only screen and (max-width: 700px) {
-	* {}
+	
 	@media only screen and (max-width: 500px) {
 		img {
 			width: 95%;
