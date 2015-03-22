@@ -46,6 +46,14 @@ a:visited {
 	color: inherit;
 }
 
+a.source:visited {
+	color: #888888;
+}
+
+a.source:link {
+	color: #888888;
+}
+
 a:hover {
 	color: #000066;
 	color: white;
