@@ -1,7 +1,6 @@
 body {
-margin: 50px;
+	margin: 50px;
 }
-
 
 h1 {
 	font-family: sans-serif;
@@ -24,15 +23,14 @@ p {
 	padding: 10px;
 }
 
-li{
+li {
 	font-family: sans-serif;
 	padding: 5px;
 }
 
 .source {
 	color: #888888;
-	font-size: 15px;
-	
+	font-size: 13px;
 }
 
 a:link {
@@ -40,8 +38,6 @@ a:link {
 	text-decoration: underline;
 	font-weight: bold;
 }
-
-
 
 a:hover {
 	color: #000066;
