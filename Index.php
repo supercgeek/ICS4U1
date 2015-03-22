@@ -20,7 +20,7 @@
 
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="http://fwrd.io/1_Projects/3_Basics/Index.php">Activity 1.0 'Basics Page'</a>
+		<li><a href="http://fwrd.io/1_Projects/3_Basics/index.php">Activity 1.0 "Basics Page"</a>
 			<br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics">See Code Source @ GitHub</a>
 		</li>
 		<li><a href="activity-1-1.php">Activity 1.1</a>
