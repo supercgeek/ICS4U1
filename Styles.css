@@ -37,9 +37,13 @@ a {
 	font-weight: bold;
 }
 
-a:link, visited, {
+a:link {
 	color: #2a2a2a;
 	text-decoration: underline;
+}
+
+a:visited {
+	color: inherit;
 }
 
 a:hover {
