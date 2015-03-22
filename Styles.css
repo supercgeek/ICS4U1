@@ -31,7 +31,7 @@ li{
 
 .source {
 	color: #888888;
-	font-size: 12px;
+	font-size: 15px;
 	
 }
 
@@ -40,6 +40,9 @@ a:link {
 	text-decoration: underline;
 	font-weight: bold;
 }
+
+
+
 a:hover {
 	color: #000066;
 	color: white;

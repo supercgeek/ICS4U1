@@ -18,7 +18,7 @@
 	
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="http://fwrd.io/1_Projects/3_Basics/Index.php">Activity 1.0 (Basics Page)</a> /// <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics"> SEE SOURCE @ GITHUB</a></li>
+		<li><a href="http://fwrd.io/1_Projects/3_Basics/Index.php">Activity 1.0 [Basics Page]</a> — <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics"> SEE SOURCE @ GITHUB</a></li>
 		<li><a href="activity-1-1.php">Activity 1.1</a></li>
 		<li><a href="activity-1-1.php">Activity 1.2</a></li>
 		<li><a href="activity-1-1.php">Activity 1.3</a></li>
