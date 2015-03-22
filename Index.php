@@ -24,7 +24,7 @@
 			<br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics">See Code Source</a>
 		</li>
 		<li><a href="activity-1-1.php">Activity 1.1</a>
-			<br><a target="_blank" class="source" href="[LINK HERE]">See Code Source @ GitHub</a>
+			<br><a target="_blank" class="source" href="[LINK HERE]">See Code Source</a>
 		</li>
 		<li><a href="activity-1-1.php">Activity 1.2</a>
 		</li>
