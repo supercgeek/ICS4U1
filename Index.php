@@ -5,26 +5,38 @@
 	<meta charset="utf-8">
 
 	<!--IDENTIFYING IFORMATION-->
-	<title>Basics | ICS4U1</title>
-	<meta name="description" content="HTML5 Page Basics">
+	<title>Cameron Burgess | ICS4U1</title>
+	<meta name="description" content="Cameron Burgess' ICS4U1 Hub">
 	<meta name="author" content="Cameron Burgess">
 
 	<!--OUTSIDE LOAD/INSTALLS-->
-	<link rel="stylesheet" type="text/css" href="/Styles.css">
-	<script src="http://use.edgefonts.net/abel:n4:all.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-	<h1>A</h1>
-	<h2>A</h2>
-	<h3>A</h3>
-	<div id="mainText">
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, libero eu dictum efficitur, sem lectus convallis mauris, ac faucibus risus neque vel ex. Vivamus sollicitudin luctus purus, nec accumsan augue varius eu. Suspendisse mollis eget odio in sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eget ex suscipit, fringilla sapien sit amet, dapibus tellus. Nulla sit amet sollicitudin libero, sit amet imperdiet leo. Nulla vitae venenatis diam.
-	</p>
-	</div>
-<img src="http://41.media.tumblr.com/tumblr_mbvs79q8SJ1rzx3rlo1_1280.jpg">
-	
+	<!--MAIN-->
+	<h1>Cameron Burgess</h1>
+	<h3>ICS4U1 FOR MR. BRAUN</h3>
+
+	<h2>Projects</h2>
+	<ul>
+		<li><a href="http://fwrd.io/1_Projects/3_Basics/index.php">Activity 1.0 "Basics Page"</a>
+			<br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics">See Code Source @ GitHub</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.1</a>
+			<br><a target="_blank" class="source" href="[LINK HERE]">See Code Source @ GitHub</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.2</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.3</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.4</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.5</a>
+		</li>
+		<li><a href="activity-1-1.php">Activity 1.7</a>
+	</ul>
+
 	<!--JQUERY-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </body>
