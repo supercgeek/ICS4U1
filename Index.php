@@ -9,7 +9,7 @@
 	<meta name="author" content="Cameron Burgess">
 	
 	<!--OUTSIDE LOAD/INSTALLS--> 
-	<link rel="stylesheet" type= "text/css" href="/Styles.css">
+	<link rel="stylesheet" type= "text/css" href="styles.css">
 </head>
 <body>
 	<!--MAIN-->
@@ -18,7 +18,7 @@
 	
 	<h2>Projects</h2>
 	<ul>
-		<li><a href="basics/">Activity 1.0 (Basics Page)</a></li>
+		<li><a href="http://fwrd.io/1_Projects/3_Basics/Index.php">Activity 1.0 (Basics Page)</a></li>
 		<li><a href="activity-1-1.php">Activity 1.1</a></li>
 		<li><a href="activity-1-1.php">Activity 1.2</a></li>
 		<li><a href="activity-1-1.php">Activity 1.3</a></li>
