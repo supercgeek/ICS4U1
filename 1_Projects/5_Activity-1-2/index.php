@@ -47,14 +47,14 @@
         </tr>
         <tr>
             <td>
-                <a href="http://fc09.deviantart.net/fs70/i/2010/343/5/e/be_careful_by_antontang-d2nq7yy.jpg">
-                    <img src="http://fc09.deviantart.net/fs70/i/2010/343/5/e/be_careful_by_antontang-d2nq7yy.jpg">
-                </a>
+              <!--CELL FIVE-->
+			<img src="http://cl.ly/aLSG/download/US_Sat.jpg" title="This is Satilite" alt="It went to space." style="width: 300px; height: auto;" />
+		<p>This is a US Satilite.</p>
             </td>
             <td>
-                <a href="http://fc09.deviantart.net/fs70/i/2010/343/5/e/be_careful_by_antontang-d2nq7yy.jpg">
-                    <img src="http://fc09.deviantart.net/fs70/i/2010/343/5/e/be_careful_by_antontang-d2nq7yy.jpg">
-                </a>
+                <!--CELL SIX-->
+			<img src="http://cl.ly/aKX4/download/0.-LEAKED_800.jpg" title="LEAKED Graphic" alt="Looks like it leaked." style="width: auto; height: 200px;" />
+		<p>This is a graphic I made in <a href="http://pixelmator.com" target="_blank"> Pixelmator</a>.</p>
             </td>
 
         </tr>
