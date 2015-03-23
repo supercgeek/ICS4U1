@@ -23,7 +23,7 @@
 
     <ul>
         <!--SECTION TWO PROJECTS ARE BELOW (INTRODUCTION)-->
-		<h3 id="S-HEADING">Section 2</h3>
+		<h3 id="S-HEADING">Section TWO</h3>
         <li><a href="http://fwrd.io/1_Projects/3_Basics/index.php">Activity 1.0 "Basics Page"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/3_Basics">See Code Source ⎋</a>
         </li>
@@ -31,7 +31,7 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/4_Activity-1-1">See Code Source ⎋</a>
         </li>
 		<!--SECTION THREE PROJECTS ARE BELOW (HTML5 & CSS3)-->
-        <h3 id="S-HEADING">Section 3</h3>
+        <h3 id="S-HEADING">Section THREE</h3>
         <li><a href="[LINK]">Activity 1.2</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
