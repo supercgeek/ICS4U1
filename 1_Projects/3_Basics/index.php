@@ -27,7 +27,7 @@
 
 	<div id="mainText">
 		<p>
-			Hi Mr. Braun, <br></br>Sorry about taking so long to get started. I've had a bamboziling start to the year, anyhow, time to begin — I can't wait to hear your feedback. <br></br>Cheers, <br>Cameron Burgess <br></br> P.S. You gotta' love unicode.
+			Hi Mr. Braun, <br></br>Sorry about taking so long to get started. I've had a bamboziling start to the year. anyhow, time to begin — I can't wait to hear your feedback. <br></br>Cheers, <br>Cameron Burgess <br></br> P.S. You gotta' love unicode.
 		</p>
 	</div>
 	<a href="http://supercgeek.tumblr.com/post/114279693200/pol2071-2048-our-new-world-from-weyland">
