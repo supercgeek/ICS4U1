@@ -18,6 +18,7 @@
 	<h1>Cameron Burgess</h1>
 	<h3>ICS4U1 FOR MR. BRAUN</h3>
 
+	<!--All project links-->
 	<h2>Projects</h2>
 	<ul>
 		<li><a href="http://fwrd.io/1_Projects/3_Basics/index.php">Activity 1.0 "Basics Page"</a>

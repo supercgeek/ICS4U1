@@ -15,6 +15,7 @@
 </head>
 
 <body>
+	<!--Main Image headers-->
 	<div id="topA">
 		<h1>Hello</h1>
 	</div>
@@ -24,7 +25,7 @@
 	<div id="bottomA">
 		<h3>مرحبا</h3>
 	</div>
-
+	<!--Message-->
 	<div id="mainText">
 		<p>
 			Hi Mr. Braun,
@@ -34,6 +35,7 @@
 			<br></br> P.S. You gotta' love unicode.
 		</p>
 	</div>
+	<!--A clickable picture-->
 	<a href="http://supercgeek.tumblr.com/post/114279693200/pol2071-2048-our-new-world-from-weyland">
 		<img src="http://41.media.tumblr.com/tumblr_mbvs79q8SJ1rzx3rlo1_1280.jpg">
 	</a>
