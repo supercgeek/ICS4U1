@@ -1,0 +1,44 @@
+body {
+		padding: 20px 20px 20px 20px;
+		background: url("http://ics.actonhighschool.ca/test/images/fence.jpg");
+		color: #333333; /* font color */
+		font-family: "Century Gothic",/* CenturyGothic, AppleGothic,*/ sans-serif;
+}
+.h1 {
+	font-weight: bold;
+	font-size: 35px;
+}
+.para1 {
+	font-family:"Papyrus";
+	font-size: 1.4em;
+	color: #0355fa;
+	padding: 20px;
+	background-color: #FFA500;
+}
+a:link, a:visited, a:active {
+	color: #3e3e3e;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #9400d3;
+}
+.aboveTheFold {
+	background: white;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+.h2 {
+		font-weight: bold;
+	font-size: 22px;
+}
+.red-text {
+	color: #ff0000;
+}
+.blue-text {
+	color: #0000ff;
+}
+.green-text {
+	color: #00ff00;
+}
