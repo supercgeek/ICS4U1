@@ -36,7 +36,7 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/5_Activity-1-2">See Code Source ⎋</a>
         </li>
         
-		<li><a href="[LINK]">Activity 1.3</a>
+		<li><a href="[LINK]">Activity 1.3 HEYEYEEY</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
         <!--
