@@ -35,7 +35,8 @@
         <li><a href="[LINK]">Activity 1.2</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
-        <li><a href="[LINK]">Activity 1.3</a>
+        <!--
+		<li><a href="[LINK]">Activity 1.3</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
 		<li><a href="[LINK]">Activity 1.4</a>
@@ -55,7 +56,7 @@
         </li>
 		<li><a href="[LINK]">Activity 1.9</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
-        </li>
+        </li>-->
 		<!--SECTION FOUR PROJECTS ARE BELOW (PHP)-->
 		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
 		<!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
