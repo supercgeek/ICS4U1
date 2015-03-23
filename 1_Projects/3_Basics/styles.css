@@ -74,11 +74,10 @@ a:link {
 
 img {
 	width: 50%;
-	}
+}
 /*###MEDIA QUERIES###*/
 
 @media only screen and (max-width: 700px) {
-	
 	@media only screen and (max-width: 500px) {
 		img {
 			width: 95%;
