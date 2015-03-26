@@ -48,12 +48,12 @@
         <tr>
             <td>
               <!--CELL FIVE-->
-			<img src="http://cl.ly/aLSG/download/US_Sat.jpg" title="This is Satilite" alt="It went to space." style="width: 300px; height: auto;" />
+			<img src="http://fwrd.io/2_Assets/1_Images/Satilite.JPG" title="This is Satilite" alt="It went to space." style="width: 300px; height: auto;" />
 		<p>This is a US Satilite.</p>
             </td>
             <td>
                 <!--CELL SIX-->
-			<img src="http://cl.ly/aKX4/download/0.-LEAKED_800.jpg" title="LEAKED Graphic" alt="Looks like it leaked." style="width: auto; height: 200px;" />
+			<img src="http://fwrd.io/2_Assets/1_Images/LEAKED.jpg" title="LEAKED Graphic" alt="Looks like it leaked." style="width: auto; height: 200px;" />
 		<p>This is a graphic I made in <a href="http://pixelmator.com" target="_blank"> Pixelmator</a>.</p>
             </td>
 
