@@ -67,7 +67,7 @@
     <!--The Intro Header // "Give the page a heading and then in the first paragraph tag perform the task given in the next section."-->
     <div class="aboveTheFold">
         <h1 class="aboveTheFold">The Activity 1.1 begins below:</h1> 
-        <p>I used a 'Century Gothic' lookalike because 'Century Gothic' is not supported on OSX and 'Apple Gothic' does not have a bold option.</p>
+        <p>I used a 'Century Gothic' lookalike because 'Century Gothic' is not supported on OSX and 'Apple Gothic' does not have a bold face.</p>
     </div>
     <p> <span class="h1"><b>This is an h1 heading</b></span> 
         <br>
