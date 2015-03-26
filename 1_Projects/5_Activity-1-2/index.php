@@ -53,7 +53,7 @@
             </td>
             <td>
                 <!--CELL SIX-->
-			<img src="http://fwrd.io/2_Assets/1_Images/LEAKED.jpg" title="LEAKED Graphic" alt="Looks like it leaked." style="width: auto; height: 200px;" />
+			<img src="http://fwrd.io/2_Assets/1_Images/LEAKED.JPG" title="LEAKED Graphic" alt="Looks like it leaked." style="width: auto; height: 200px;" />
 		<p>This is a graphic I made in <a href="http://pixelmator.com" target="_blank"> Pixelmator</a>.</p>
             </td>
 
