@@ -127,13 +127,38 @@
 		}
 		
 		a.my-button2:hover {
-			
 			text-decoration: line-through;
 			text-decoration: overline;
 			text-decoration: underline;
-			
+		}
+		/* THIRD LINK */
+		
+		.link-3 {
+			width: 550px;
+			height: 550px;
+			background-image: radial-gradient(farthest-corner at 0px 25px, #c7b8b8 0%, #7c8153 100%);
+			padding: 35px;
+			margin: 15px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		
+		a.my-button3:link,
+		a.my-button3:visited,
+		a.my-button3:active {
+			font-weight: 1000;
+			font-size: 10em;
+			/* SPECIAL TEXT SETTINGS */
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: rgba(208, 208, 208, 0.2);
+			background-size: cover;
+			background-position: center;
+			background-image: url(http://33.media.tumblr.com/019825b65c44298aa5eadaec29b5dc98/tumblr_nljsadpNWI1rdravzo1_540.gif);
+		}
+		
+		a.my-button3:hover {
+			-webkit-text-fill-color: rgba(240, 109, 6, 0.46);
 
-			
 		}
 	</style>
 
@@ -165,6 +190,17 @@
 		<br>
 		<a href="#" class="my-button2">Click <br>Me</a>
 	</div>
+
+	<div class="link-3">
+		<br></br>
+		<br></br>
+		<br></br>
+		<br>
+		<br>
+		<a href="#" class="my-button3">THINK</a>
+	</div>
+
+
 	<!-- /main content -->
 
 	<!-- load jquery -->
