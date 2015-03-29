@@ -53,10 +53,11 @@
         <li><a href="/1_Projects/9_Activity-1-7/activity-1-7.php">Activity 1.7</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/9_Activity-1-7">See Code Source ⎋</a>
         </li>
-		<!--
-        <li><a href="[LINK]">Activity 1.7.5</a>
+		
+        <li><a href="[LINK]">Activity 1.8 "Divs and IDs Practice"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
+		<!--
         <li><a href="[LINK]">Activity 1.9</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
