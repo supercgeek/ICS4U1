@@ -148,6 +148,7 @@
 		a.my-button3:active {
 			font-weight: 1000;
 			font-size: 10em;
+			
 			/* SPECIAL TEXT SETTINGS */
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: rgba(208, 208, 208, 0.2);
@@ -158,7 +159,6 @@
 		
 		a.my-button3:hover {
 			-webkit-text-fill-color: rgba(240, 109, 6, 0.46);
-
 		}
 	</style>
 
