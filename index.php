@@ -40,11 +40,13 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/6_Activity-1-3">See Code Source ⎋</a>
         </li>
         
+		
+        <li><a href="http://fwrd.io/1_Projects/7_Activity-1-4/activity-1-4.php">Activity 1.4</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/7_Activity-1-4">See Code Source ⎋</a>
+		</li>
+        
 		<!--
-        <li><a href="[LINK]">Activity 1.4</a>
-            <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
-        </li>
-        <li><a href="[LINK]">Activity 1.5</a>
+		<li><a href="[LINK]">Activity 1.5</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
         </li>
         <li><a href="[LINK]">Activity 1.6</a>
