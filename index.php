@@ -50,7 +50,7 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/8_Activity-1-5">See Code Source ⎋</a>
         </li>
         
-        <li><a href="fwrd.io/1_Projects/9_Activity-1-7/activity-1-7.php">Activity 1.7</a>
+        <li><a href="http://fwrd.io/1_Projects/9_Activity-1-7/activity-1-7.php">Activity 1.7</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/9_Activity-1-7">See Code Source ⎋</a>
         </li>
 		<!--
