@@ -12,9 +12,7 @@
 <body>
 <h2>HTML Forms & Input - The Basics</h2>
 <p>This simple site will show you how to create a simple form; there will be a PHP extension to this show how to work with the submitted data.</p>
-
-<!-- PHP extension code goes below this -->
-<p>Your first name is <b>Test</b>.</p><p>Your password is <b>123</b>.</p>
+	
 <!-- there are two form methods: "get" and "post" ; "get" shows the values for the type variables and values, "post" hides the type variables and values //-->
 <form name="form1" action="lesson_1-9.php" method="post">
 	<!-- text input //-->
@@ -55,6 +53,22 @@
 	
 	<!-- submit button //-->
 	<input type="submit" name="subButton" value="Click Me!"></input>
+
+<?php
+// only show the information if the button named "subButton" has been pressed
+
+if ($_POST['subButton']) {
+	// set the variable with the submitted value
+	$firstname = $_POST['fname'];
+    $password = $_POST['pwd'];
+
+	// display the name to the screen
+	echo "<p>Your first name is " . $firstname . ".</p>";
+	echo "<p>Your last name is $password.</p>";
+}
+?>
+
+
 </form>
 </body>
 </html>
