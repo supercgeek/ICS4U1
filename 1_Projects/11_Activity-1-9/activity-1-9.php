@@ -4,38 +4,10 @@
 <head>
 	<title>Lesson - HTML Forms</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<style type="text/css">
-	body {
-		padding: 0;
-		margin: 0;
-		font-family: Arial, Verdana;
-		font-size: 1.0em;
-		width: 100%;
-		/* http://lea.verou.me/css3patterns/ */
-		background:
-		linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
-		linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
-		linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
-		background-color:#e1ebbd;
-		background-size: 128px 128px;
-	}
-	form {
-			position: relative;
-			padding: 20px;
-		    margin-left: auto;
-			margin-right: auto;
-			width: 50%;
-			background: rgba(255,255,255,0.7);
-	}
-	input, select, textarea {
-			font-size: 1.4em;
-			border: 1px solid #999999;
-			padding: 5px;
-			border-radius: 0.5em;
-			outline: none;
-			margin: 5px;
-	}
-	</style>
+	
+	<!--STYLESHEET LOAD-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
 </head>
 <body>
 <h2>HTML Forms & Input - The Basics</h2>
@@ -46,7 +18,7 @@
 <!-- there are two form methods: "get" and "post" ; "get" shows the values for the type variables and values, "post" hides the type variables and values //-->
 <form name="form1" action="lesson_1-9.php" method="post">
 	<!-- text input //-->
-	First Name: <input type="text" name="fname" value="" placeholder="FIRST NAME"></input>
+	First Name: <input type="text" name="fname" value="" placeholder="First"></input>
 	<hr size="1" />
 	
 	<!-- password input //-->
