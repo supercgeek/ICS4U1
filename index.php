@@ -57,11 +57,11 @@
         <li><a href="http://fwrd.io/1_Projects/10_Activity-1-8/division-tags-and-css-practice.php">Activity 1.8 "Divs and IDs Practice"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/10_Activity-1-8">See Code Source ⎋</a>
         </li>
-		<!--
-        <li><a href="[LINK]">Activity 1.9</a>
-            <br><a target="_blank" class="source" href="[LINK]">See Code Source ⎋</a>
+		
+        <li><a href="/1_Projects/11_Activity-1-9/activity-1-9.php">Activity 1.9</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/11_Activity-1-9">See Code Source ⎋</a>
         </li>
-		-->
+
         <!--SECTION FOUR PROJECTS ARE BELOW (PHP)-->
         <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
