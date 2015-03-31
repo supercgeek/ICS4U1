@@ -14,7 +14,7 @@
 <p>This simple site will show you how to create a simple form; there will be a PHP extension to this show how to work with the submitted data.</p>
 	
 <!-- there are two form methods: "get" and "post" ; "get" shows the values for the type variables and values, "post" hides the type variables and values //-->
-<form name="form1" action="lesson_1-9.php" method="post">
+<form name="form1" action="activity-1-9.php" method="post">
 	<!-- text input //-->
 	First Name: <input type="text" name="fname" value="" placeholder="First"></input>
 	<hr size="1" />
