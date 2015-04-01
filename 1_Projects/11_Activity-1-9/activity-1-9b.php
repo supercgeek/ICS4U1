@@ -60,11 +60,13 @@ if ($_POST['subButton']) {
 	$firstname = $_POST['fname'];
     $password = $_POST['pwd'];
     $car = $_POST['car'];
+    $textBlock = $_POST['info'];
     
 	// display the name to the screen
 	echo "<p>Your first name is " . $firstname . ".</p>";
 	echo "<p>Your last name is $password.</p>";
     echo "<p>Nice Car: $car </p>";
+    echo "<p>A whole bunch of text: <br>" . $textBlock . "</p>";
 }
 ?>
 
