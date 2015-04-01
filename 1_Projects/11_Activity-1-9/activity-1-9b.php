@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-   
 <html lang="en">
 <head>
-	<title>Lesson - HTML Forms</title>
+	<title>Activity 1.9b - HTML Forms</title>
+    
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	
 	<!--STYLESHEET LOAD-->
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles_b.css">
 	
 </head>
 <body>
-<h2>HTML Forms & Input - The Basics</h2>
-<p>This simple site will show you how to create a simple form; there will be a PHP extension to this show how to work with the submitted data.</p>
-	
-<!-- there are two form methods: "get" and "post" ; "get" shows the values for the type variables and values, "post" hides the type variables and values //-->
-<form name="form1" action="activity-1-9.php" method="post">
+<h2>HTML Forms with Re-printer!</h2>
+    
+<form name="form1" action="activity-1-9b.php" method="post">
 	<!-- text input //-->
 	First Name: <input type="text" name="fname" value="" placeholder="First"></input>
 	<hr size="1" />
@@ -61,10 +59,12 @@ if ($_POST['subButton']) {
 	// set the variable with the submitted value
 	$firstname = $_POST['fname'];
     $password = $_POST['pwd'];
-
+    $car = $_POST['car'];
+    
 	// display the name to the screen
 	echo "<p>Your first name is " . $firstname . ".</p>";
 	echo "<p>Your last name is $password.</p>";
+    echo "<p>Nice Car: $car </p>";
 }
 ?>
 
