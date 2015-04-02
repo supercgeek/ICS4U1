@@ -61,7 +61,9 @@
         <li><a href="/1_Projects/11_Activity-1-9/activity-1-9a.php">Activity 1.9 "Part A"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/11_Activity-1-9">See Code Source ⎋</a>
         </li>
-
+ <li><a href="/1_Projects/11_Activity-1-9/activity-1-9b.php">Activity 1.9 "Part B"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/11_Activity-1-9">See Code Source ⎋</a>
+        </li>
         <!--SECTION FOUR PROJECTS ARE BELOW (PHP)-->
         <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
