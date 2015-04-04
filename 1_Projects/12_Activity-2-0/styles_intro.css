@@ -1,0 +1,40 @@
+body{
+        font-family: viga, "arial black";
+		font-size: 1.0em;
+		color: #ffffff;
+		background-color: gray;
+    padding: 4em;
+	}
+	.fancyInput {
+		border: 2px dotted #ffffff;
+		outline: none;
+		font-size: 1.5em;
+        border-radius: 5px;
+	}
+	.fancyInput:hover {
+		border: 3px dotted #e0b500;
+        
+	}	
+	h1, h2 {
+		color: rgba(255, 108, 0, 0.86);
+	}
+	.subButton {
+		font-size: 1.2em;
+		border: 1px solid #d35400;
+		padding: 5px;
+        font-family: viga, "arial black";
+	}
+	.subButton:hover {
+		border: 1px solid #2980b9;
+		cursor: pointer;
+		color: #2980b9;
+	}	
+	p.output {
+		padding: 10px;
+		margin: 10px;
+		background: rgba(255,255,255,0.6);
+		font-size: 1.2em;
+	}
+b {
+    color: darkblue;
+}
