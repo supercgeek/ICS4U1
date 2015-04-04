@@ -44,7 +44,6 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/06_Activity-1-3">See Code Source</a>
         </li>
         
-		
         <li><a href="/1_Projects/07_Activity-1-4/activity-1-4.php">Activity 1.4</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/07_Activity-1-4">See Code Source</a>
 		</li>
