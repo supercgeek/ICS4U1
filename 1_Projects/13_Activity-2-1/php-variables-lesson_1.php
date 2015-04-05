@@ -8,7 +8,7 @@
 	<meta name="description" content="PUT YOUR PAGE DESCRIPTION HERE">
 	<meta name="author" content="PUT YOUR NAME HERE">	
 	
-	<link type="text/css" rel="stylesheet" href="styles.css">
+	<link type="text/css" rel="stylesheet" href="styles_1.css">
 	
 </head>
 <body>
