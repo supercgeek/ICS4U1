@@ -64,10 +64,10 @@
     <b>Favourite type of Soda:</b><br />
 	<select name="favSoda" class="fancyInput">
 		<option value=""></option>
-		<option value="drP">Dr. Pepper</option>
-		<option value="pepsi">Pepsi</option>
-		<option value="yumm">Yumm Rocks</option>
-        <option value="gt">Green Tea</option>
+		<option value="Dr. Pepper">Dr. Pepper</option>
+		<option value="Pepsi">Pepsi</option>
+		<option value="Yumm Rocks">Yumm Rocks</option>
+        <option value="Green Tea">Green Tea</option>
 	</select><br />
     <b>Email:</b><br>
     <input type="text" name="email" value="" class="fancyInput"></input></br>

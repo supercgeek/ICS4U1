@@ -73,12 +73,28 @@
         <li><a href="http://fwrd.io/1_Projects/12_Activity-2-0/introduction-to-php.php">Activity 2.0 "Introduction to PHP"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/12_Activity-2-0">See Code Source</a>
         </li>
-        <!--
-        <li><a href="[LINK]">Activity 2.1</a>
+		
+        <li><a href="[LINK]">Activity 2.1 "PHP Variables Lesson 1"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
         </li>
+		
+		<li><a href="[LINK]">Activity 2.1 "PHP Variables Lesson 2"</a>
+            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
+        </li>
+		
+		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
+            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
+        </li>
+		
+		<li><a href="[LINK]">Activity 2.2 "Part B"</a>
+            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
+        </li>
+		
         
-        <li><a href="[LINK]">Activity 2.2 "Part A"</a>
+  		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
+        <!--
+		<h3 id="S-HEADING">Section FIVE</h3>
+		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
         </li>
         
@@ -86,7 +102,6 @@
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
         </li>
         -->
-        <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
         <!--PERFORMANCE TASK-->
     </ul>
