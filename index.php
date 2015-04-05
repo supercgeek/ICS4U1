@@ -74,11 +74,7 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/12_Activity-2-0">See Code Source</a>
         </li>
 		
-        <li><a href="[LINK]">Activity 2.1 "PHP Variables Lesson 1"</a>
-            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
-        </li>
-		
-		<li><a href="[LINK]">Activity 2.1 "PHP Variables Lesson 2"</a>
+        <li><a href="[LINK]">Activity 2.1 "PHP Variables Lesson 1 & 2"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
         </li>
 		
