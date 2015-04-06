@@ -1,5 +1,4 @@
-body,
-PRE {
+body {
 	padding: 10px;
 	padding-left: 20px;
 	font-family: sans-serif;
@@ -99,4 +98,11 @@ textarea:focus {
 .updateForm_col {
 		width: 365px;
 	text-align: center;
+}
+
+th {
+	padding-Right: 10px 
+}
+table, tr,th,td {
+	background-color: white;
 }
