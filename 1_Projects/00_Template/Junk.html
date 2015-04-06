@@ -1,0 +1,129 @@
+
+
+background-color: $hexColour;
+
+
+$_REQUEST['variable'] from URL
+
+How is this differnt to: 
+$_GET['variable'] from URL 
+
+need to investigate 
+
+AND == && for comparison 
+
+else if or elseif  (CHECK THIS )
+
+
+OR 
+
+You can append strings variables using: 
+
+echo $var . $varOther
+
+
+some cool syntax:
+
+echo $var1 . " words are here " . $var2
+
+<!--
+
+Perimeter: get the user input for the length and width of a rectangle.  Calculate the perimeter.  You must include an introduction statement and “therefore” statement and print it them to the screen (2*L + 2*W) = P.
+
+Area: The area of a triangle can be found using the formula A=bh2.  Calculate and output the area of a triangle using the input from the user (from a form).
+
+Speed of Sound: The speed of sound can be calculated based on the temperature of the air.  Basically, you multiply the temperature (degrees Celcius) by 0.6 and then add 332.  This will be the speed in m/s at this temperature.  Calculate and output the temperature using variables for -10o,0o,10o,20o and 30o (a <select> tag is useful for this)
+
+Number Magic: Get a single variable input from the usert.  When the form is submitted take the number and, add 2 to that number, multiply by 3 subtract 6 and then take this and multiply by 3.  Output the result.  Try changing the value of your original variable.
+
+[The trick works like this:  The output is simply 9 times the number that was typed in.  So, if you put in the number 7..the result would be 63.  Try it.  63/9 = 7.  If you put in 10 the result will be 90.  Try it.  90/9 = 10.  So, the game works like this:  Have someone type in a number and tell you the result.  Divide it by 9 and that was the number they put in.]
+-->
+
+<?php
+$var1 = "Hello World!";  // no spaces in variables and start with a $
+$var2 = "...How are you?";
+
+// append strings together using a dot (.) - see example below
+echo "<p>The following statement was produced with variables:</p><p>" . $var1 . $var2 . "</p>"; 
+
+?>
+	<?php
+if ($_POST['goButton']) {
+	$happyness = $_POST['happy'];
+	$feeling = $_POST['emotionalState'];
+	$meal1 = $_POST['breakfast'];
+	$meal2 = $_POST['lunch'];
+	$meal3 = $_POST['dinner'];
+	$where = $_POST['location'];
+	$apple = $_POST['fruit2'];
+	$badPart = $_POST['worstPart']; 
+	
+	echo "<p><i>Your input has been reprinted below</i></p>";
+	echo "<hr>";
+	echo "<p>You're having a good day? <b>$happyness</b></p>";
+	echo "<p>Your emotional state ranks <b>$feeling out of 100</b></p>"; 
+	echo "<p>You ate the following meals: <b> $meal1 $meal2 $meal3</b></p>"; 
+	echo "<p>You live on: <b>$where</b></p>";
+	echo "<p>The worst part of your day was: <b>$badPart</b></p>";
+	echo '<style type="text/css">
+        .reportArea {
+            display: inherit;
+        }
+        </style>'; 
+	}
+?>
+
+<form class="answer" name="yourDay" action="activity-1-9b.php" method="post">
+
+			<!--"1: have you had a good day?"-->
+
+			<!--QUE-->
+			<p style="width: 210px" class="question">Have you had a good day?</p>
+			<!--ANS-->
+			<input type="radio" name="happy" value="YES">YES</input>
+			<input type="radio" name="happy" value="NO">NO</input>
+
+			<!--"2: how many cups of coffe did you drink today?"-->
+
+			<!--QUE-->
+			<p style="width: 320px" class="question">rate your emotional state using this slider</p>
+			<!--ANS-->
+			SAD
+			<input type="range" name="emotionalState" value="yes">HAPPY</input>
+
+
+			<!--"3: what meals did you have today?"-->
+
+			<!--QUE-->
+			<p style="width: 260px" class="question">what meals did you have today?</p>
+			<!--ANS-->
+			<input type="checkbox" name="breakfast" value="BREAKFAST">BREAKFAST</input>
+			<input type="checkbox" name="lunch" value="LUNCH">LUNCH</input>
+			<input type="checkbox" name="dinner" value="DINNER">DINNER</input>
+
+			<!--"4: where do you live?"-->
+			<!--QUE-->
+			<p style="width: 150px" class="question">where do you live?</p>
+			<!--ANS-->
+			<select class="selecter" name="location">
+				<option value="">Choose a Place</option>
+				<option value="EARTH">Earth</option>
+				<option value="MARS">Mars</option>
+				<option value="THE MOON">The Moon</option>
+			</select>
+
+			<!--"5: what was the worst part of your day?"-->
+
+			<!--QUE-->
+			<p style="width: 300px" class="question">what was the worst part of your day?</p>
+			<!--ANS-->
+			<input style="background-color: rgba(193, 193, 193, 0.54); padding: 10px; font-size: 14px; padding-top: 12px; border-radius: 20px; text-align: center; color: #ffffff; font-weight: bold;" type="text" name="worstPart" value="" placeholder="TYPE HERE"></input>
+
+			<!-- SUBMIT REGION-->
+			<div class="overlay">
+				<div class="submitButton">
+				</div>
+			</div>
+			<br>
+			<input type="submit" name="goButton" value="SUBMIT"></input>
+		</form>

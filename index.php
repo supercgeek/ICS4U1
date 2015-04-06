@@ -90,7 +90,6 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/14_Activity_2-2">See Code Source</a>
         </li>
 		
-        
   		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--
 		<h3 id="S-HEADING">Section FIVE</h3>
