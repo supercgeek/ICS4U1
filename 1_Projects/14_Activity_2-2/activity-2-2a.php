@@ -32,15 +32,14 @@
 	//Shape Calculation
 	if ($length == $width) {$shape = "square";} else {$shape = "rectangle";}
 	//Calculation
-	$ANSWER = (2*$length)+(2*$width);
+	$ANSWER_1 = (2*$length)+(2*$width);
 	//Printing
-	echo "<p><b>( 2 × $length) + ( 2 × $width) = $ANSWER</b></p>";
-	echo "<p><i>Therefore, with length being <b> $length </b> and width being <b> $width</b>, the Perimter of the $shape is <b>$ANSWER</b> units.</i></p>";
-	
+	echo "<p><b>( 2 × $length ) + ( 2 × $width ) = $ANSWER_1</b></p>";
+	echo "<p><i>Therefore, with length being <b> $length </b> and width being <b> $width</b>, the Perimter of the $shape is <b>$ANSWER_1</b> units.</i></p>";
 	}
 	?>
 <!--
-Some thing I'll figure out later.
+A thing I'll figure out later.
 <form style="background:none!important;
      border:none!important;
      padding:0;
@@ -48,21 +47,82 @@ Some thing I'll figure out later.
 	 text-decoration: underline;
      cursor: pointer;" name="clear_perimter" action="activity-2-2a.php" method="get"><input type="submit" name="calc_1-Clear" value="CLEAR"></input></form>
 -->
-
 	<br>
 	<!--Area CACLULATION-->
 	<h2>Area</h2>
 	<p>Calculate the <b>Area</b> of a triangle by entering its base and height.</p>
+	<form class="calc" name="area" action="activity-2-2a.php" method="get">
+	( 1/2 × 
+		<input class="calc_2" name="base" type="number" placeholder="base" required></input> )
+	× ( <input class="calc_2" name="height"type="number" placeholder="height" required></input> ) =
+	<input type="submit" name="calc_2-Button" value="ANSWER"></input>
+	</form>
+	<?php 
+	if ($_GET['calc_2-Button']) {
+	//Variable Assignment
+	$base = $_GET['base'];
+	$height = $_GET['height'];
+	//Calculation
+	$ANSWER_2 = (1/2*$base)*($height);
+	//Printing
+	echo "<p><b>( 1/2 × $base ) × ( $height ) = $ANSWER_2</b></p>";
+	echo "<p><i>Therefore, with the base being <b> $base </b> and the height being <b> $height</b>, the Area of triangle is <b>$ANSWER_2</b> units.</i></p>";
 	
-	
+	}
+	?>
 	<br>
 	<!--SPEED OF SOUND CACLULATION-->
 	<h2>Speed of Sound</h2>
-	<p>Calculate the Perimter of a rectandle by entering its length and width.</p>
-	
-	
+	<p>Calculate the Speed of Sound under the following temperatures by selecting a choice.</p>
+	<form class="calc" name="perimter" action="activity-2-2a.php" method="get">
+			( 0.6 × 	<select class="calc" name="temperature">
+				<option value="FAIL">Choose a Temperature</option>
+				<option value="-10">-10 °C</option>
+				<option value="0">0 °C</option>
+				<option value="10">10 °C</option>
+				<option value="20">20 °C</option>
+				<option value="30">30°C</option>
+			</select>) + 332 =
+	<input type="submit" name="calc_3-Button" value="ANSWER"></input>
+	</form>
+	<?php 
+	if ($_GET['calc_3-Button']) {
+	//Variable Assignment
+	$temperature = $_GET['temperature'];
+	}
+	if ($temperature == "FAIL") {
+	echo "<p>You must select a temperature first.</p>";
+	}
+	elseif ($temperature !== null) {
+	//Calculation
+	$ANSWER_3 = (0.6*$temperature)+(332);
+	//Printing
+	echo "<p><b>( 0.6 × $temperature ) + ( 332 ) = $ANSWER_3</b></p>";
+	echo "<p><i>Therefore, with a temperature of <b> $temperature </b> °C, the rate at which sound travels through the air is <b>$ANSWER_3</b> meters per second.</i></p>";
+	}
+	else{}
+	?>
 	<br>
 	<!--MAGIC NUMBER CALCUALTION-->
 	<h2>Magic Number</h2>
-	<p>Calculate the Perimter of a rectandle by entering its length and width.</p>
+	<p>Enter a number, wait for the Magic!</p>
+<form class="calc" name="magic" action="activity-2-2a.php" method="get">
+<input class="calc_4" name="mystery" type="number" placeholder="type any number" required></input> ) = 
+	<input type="submit" name="calc_4-Button" value="ANSWER"></input>
+	</form>
+	<?php 
+	if ($_GET['calc_4-Button']) {
+	//Variable Assignment
+	$length = $_GET['length'];
+	$width = $_GET['width'];
+	//Shape Calculation
+	if ($length == $width) {$shape = "square";} else {$shape = "rectangle";}
+	//Calculation
+	$ANSWER_1 = (2*$length)+(2*$width);
+	//Printing
+	echo "<p><b>( 2 × $length ) + ( 2 × $width ) = $ANSWER_1</b></p>";
+	echo "<p><i>Therefore, with length being <b> $length </b> and width being <b> $width</b>, the Perimter of the $shape is <b>$ANSWER_1</b> units.</i></p>";
+	
+	}
+	?>
 </body>

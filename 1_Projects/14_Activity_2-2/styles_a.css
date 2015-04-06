@@ -1,15 +1,11 @@
 body {
 	padding: 10px;
+	padding-left: 20px;
 	font-family: sans-serif;
 }
 
 h2 {
 	line-height: 0;
-}
-
-.calc_1 {
-	width: 50px;
-	text-align: center;
 }
 
 ::-webkit-input-placeholder {
@@ -58,3 +54,45 @@ textarea:focus {
 	margin: 0px 0px 0px 0px;
 	border: 1px solid rgba(0, 0, 0, 0);
 }
+.calc_1 {
+	width: 50px;
+	text-align: center;
+}
+.calc_2 {
+	width: 50px;
+	text-align: center;
+}
+
+option {
+	padding-bottom: 40px;
+	
+}
+
+/*
+something I'll figure out later
+.select-style {
+   background: inherit;
+   width: inherit;
+   padding: inherit;
+   font-size:inherit;
+   line-height: inherit;
+   border: inherit;
+   border-radius: inherit;
+   height: inherit;
+   -webkit-appearance: inherit;
+   }
+	
+}
+.select-style select {
+   background: transparent;
+   width: 250px;
+	background-color: aquamarine;
+   padding: 5px;
+   font-size: inherit;
+   line-height: 1;
+   border: 10px;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+*/
