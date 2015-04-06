@@ -26,6 +26,9 @@ some cool syntax:
 
 echo $var1 . " words are here " . $var2
 
+<!--STYLESHEET LOAD-->
+	<link rel="stylesheet" type="text/css" href="styles_b.css">
+
 <!--
 
 Perimeter: get the user input for the length and width of a rectangle.  Calculate the perimeter.  You must include an introduction statement and “therefore” statement and print it them to the screen (2*L + 2*W) = P.
