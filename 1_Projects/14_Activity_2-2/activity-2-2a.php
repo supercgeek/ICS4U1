@@ -18,17 +18,17 @@
 	<!--PERIMETER CACLULATION-->
 	<h2>Perimeter</h2>
 	<p>Calculate the <b>Perimter</b> of a rectandle or square by entering its length and width.</p>
-	<form class="calc" name="perimter" action="activity-2-2a.php" method="get">
+	<form class="calc" name="perimter" action="activity-2-2a.php" method="post">
 	( 2 × 
 		<input class="calc_1" name="length" type="number" placeholder="length" required></input> )
 	+ ( 2 × <input class="calc_1" name="width"type="number" placeholder="width" required></input> ) =
 	<input type="submit" name="calc_1-Button" value="ANSWER"></input>
 	</form>
 	<?php 
-	if ($_GET['calc_1-Button']) {
+	if ($_POST['calc_1-Button']) {
 	//Variable Assignment
-	$length = $_GET['length'];
-	$width = $_GET['width'];
+	$length = $_POST['length'];
+	$width = $_POST['width'];
 	//Shape Calculation
 	if ($length == $width) {$shape = "square";} else {$shape = "rectangle";}
 	//Calculation
@@ -45,23 +45,23 @@ A thing I'll figure out later.
      padding:0;
      font-family: georgia;
 	 text-decoration: underline;
-     cursor: pointer;" name="clear_perimter" action="activity-2-2a.php" method="get"><input type="submit" name="calc_1-Clear" value="CLEAR"></input></form>
+     cursor: pointer;" name="clear_perimter" action="activity-2-2a.php" method="post"><input type="submit" name="calc_1-Clear" value="CLEAR"></input></form>
 -->
 	<br>
 	<!--Area CACLULATION-->
 	<h2>Area</h2>
 	<p>Calculate the <b>Area</b> of a triangle by entering its base and height.</p>
-	<form class="calc" name="area" action="activity-2-2a.php" method="get">
+	<form class="calc" name="area" action="activity-2-2a.php" method="post">
 	( 1/2 × 
 		<input class="calc_2" name="base" type="number" placeholder="base" required></input> )
 	× ( <input class="calc_2" name="height"type="number" placeholder="height" required></input> ) =
 	<input type="submit" name="calc_2-Button" value="ANSWER"></input>
 	</form>
 	<?php 
-	if ($_GET['calc_2-Button']) {
+	if ($_POST['calc_2-Button']) {
 	//Variable Assignment
-	$base = $_GET['base'];
-	$height = $_GET['height'];
+	$base = $_POST['base'];
+	$height = $_POST['height'];
 	//Calculation
 	$ANSWER_2 = (1/2*$base)*($height);
 	//Printing
@@ -74,7 +74,7 @@ A thing I'll figure out later.
 	<!--SPEED OF SOUND CACLULATION-->
 	<h2>Speed of Sound</h2>
 	<p>Calculate the Speed of Sound under the following temperatures by selecting a choice.</p>
-	<form class="calc" name="perimter" action="activity-2-2a.php" method="get">
+	<form class="calc" name="perimter" action="activity-2-2a.php" method="post">
 			( 0.6 × 	<select class="calc" name="temperature">
 				<option value="FAIL">Choose a Temperature</option>
 				<option value="-10">-10 °C</option>
@@ -86,9 +86,9 @@ A thing I'll figure out later.
 	<input type="submit" name="calc_3-Button" value="ANSWER"></input>
 	</form>
 	<?php 
-	if ($_GET['calc_3-Button']) {
+	if ($_POST['calc_3-Button']) {
 	//Variable Assignment
-	$temperature = $_GET['temperature'];
+	$temperature = $_POST['temperature'];
 	}
 	if ($temperature == "FAIL") {
 	echo "<p>You must select a temperature first.</p>";
@@ -106,14 +106,14 @@ A thing I'll figure out later.
 	<!--MAGIC NUMBER CALCUALTION-->
 	<h2>Magic Number</h2>
 	<p>Enter a number, wait for the Magic!</p>
-<form class="calc" name="magic" action="activity-2-2a.php" method="get">
+<form class="calc" name="magic" action="activity-2-2a.php" method="post">
 ( <input class="calc_4" name="mystery" type="number" placeholder="type any number" required></input> ) = 
 	<input type="submit" name="calc_4-Button" value="ANSWER"></input>
 	</form>
 	<?php 
-	if ($_GET['calc_4-Button']) {
+	if ($_POST['calc_4-Button']) {
 	//Variable Assignment
-	$mystery = $_GET['mystery'];
+	$mystery = $_POST['mystery'];
 	//Calculation
 	$ANSWER_4 = ($mystery)*(9);
 	//Printing
