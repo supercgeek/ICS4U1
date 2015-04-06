@@ -3,7 +3,10 @@
 <head>
 	<title>User Input & Conditional Statements Lesson</title>
 	<!--STYLESHEET LOAD-->
-<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!--FONT LOAD-->
+	<script src="//use.typekit.net/oyg0jqn.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 	<div id="reportContainer">

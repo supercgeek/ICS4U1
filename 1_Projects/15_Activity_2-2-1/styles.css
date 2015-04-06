@@ -1,28 +1,108 @@
-	body {
-		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		background-image: url("http://actonhighschool.ca/ics/images/chalkboard-background.jpg");
-		background-size: cover;
-		background-attachment: cover;
-		font-size: 1.2rem;
-		color: #ffffff;
-	}
-	h1 {
-		font-style: italics;
-	}
-	.error {
-		color: #ff0000;
-	}
-	#reportContainer {
-		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		width: 80%; 
-		padding: 2%; 
-		margin-top: 100px;
-		background: rgba(0,0,0,0.4);
-		border-radius: 0.5em; 
-	}
-	input {
-		font-size: 1.3em; 
-		width: 100px; 
-	}
+body {
+	padding: 20px;
+	margin: 30px;
+	font-family: "aktiv-grotesk-std", sans-serif;
+	font-size: 1.0em;
+	background-image: url(http://41.media.tumblr.com/558e04727254a7157ca3ab2a97ce38b6/tumblr_nlw6mrCFXh1rxkjzwo1_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	color: white;
+	text-transform: uppercase;
+	line-height: 2px;
+}
+
+form {
+	font-weight: bold;
+}
+
+input,
+select,
+textarea {
+	margin: 5px;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.81);
+}
+
+.question {
+	text-transform: lowercase;
+	background-color: #0089ff;
+	padding: 10px;
+	padding-top: 12px;
+	border-radius: 20px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.formArea {
+	position: relative;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+input[type=submit] {
+	font-weight: bold;
+	color: #000000;
+	font-size: 15px;
+	height: auto;
+	width: 125px;
+	padding: 10px;
+	background: rgba(244, 226, 15, 0.9);
+	border: none;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(33, 33, 33, 0.94);
+	font-weight: bold;
+}
+
+.selecter {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 18px;
+	height: auto;
+	width: 170px;
+	padding: 15px;
+	background: rgb(255, 255, 255);
+	border: none;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+/* ###SOME OVERLAY STUFF I WAS WORKING ON BUT DIDN'T WORK OUT, FOR NOW
+.submitButton {
+	position: relative;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(38, 38, 38, 0.7);	
+	background-image: url(http://33.media.tumblr.com/3adf15b0eb11cca95d32244ae7a30a19/tumblr_nhghueidi51qkno54o1_1280.gif);
+	background-size: cover;
+	background: rgb(150, 150, 150);
+	opacity: 0.2;
+}
+.overlay {
+	background-image: url(http://33.media.tumblr.com/3adf15b0eb11cca95d32244ae7a30a19/tumblr_nhghueidi51qkno54o1_1280.gif);
+	background-size: cover;
+	width: auto;
+}*/
+
+.reportArea {
+	position: relative;
+	padding: 20px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(46, 46, 46, 0.7);
+}
