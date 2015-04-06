@@ -107,21 +107,18 @@ A thing I'll figure out later.
 	<h2>Magic Number</h2>
 	<p>Enter a number, wait for the Magic!</p>
 <form class="calc" name="magic" action="activity-2-2a.php" method="get">
-<input class="calc_4" name="mystery" type="number" placeholder="type any number" required></input> ) = 
+( <input class="calc_4" name="mystery" type="number" placeholder="type any number" required></input> ) = 
 	<input type="submit" name="calc_4-Button" value="ANSWER"></input>
 	</form>
 	<?php 
 	if ($_GET['calc_4-Button']) {
 	//Variable Assignment
-	$length = $_GET['length'];
-	$width = $_GET['width'];
-	//Shape Calculation
-	if ($length == $width) {$shape = "square";} else {$shape = "rectangle";}
+	$mystery = $_GET['mystery'];
 	//Calculation
-	$ANSWER_1 = (2*$length)+(2*$width);
+	$ANSWER_4 = ($mystery)*(9);
 	//Printing
-	echo "<p><b>( 2 × $length ) + ( 2 × $width ) = $ANSWER_1</b></p>";
-	echo "<p><i>Therefore, with length being <b> $length </b> and width being <b> $width</b>, the Perimter of the $shape is <b>$ANSWER_1</b> units.</i></p>";
+	echo "<p><b>( $mystery ) MAGIC OPERATOR = $ANSWER_4</b></p>";
+	echo "<p><i>Therefore, with magic being performed the result is <b>$ANSWER_4</b> units.</i></p>";
 	
 	}
 	?>
