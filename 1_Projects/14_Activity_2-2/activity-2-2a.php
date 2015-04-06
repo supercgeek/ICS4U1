@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>PHP Variables Lesson - YOUR NAME</title>	
+	<title>PHP Variables Lesson - CAMERON BURGESS</title>	
 	
 	<meta name="description" content="The Calculator of Various Things">
 	<meta name="author" content="Cameron Burgess">	

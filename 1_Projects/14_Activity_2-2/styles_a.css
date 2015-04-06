@@ -62,12 +62,14 @@ textarea:focus {
 	width: 50px;
 	text-align: center;
 }
-
+.calc_4 {
+	width: 135px;
+	text-align: center;
+}
 option {
 	padding-bottom: 40px;
 	
 }
-
 /*
 something I'll figure out later
 .select-style {
