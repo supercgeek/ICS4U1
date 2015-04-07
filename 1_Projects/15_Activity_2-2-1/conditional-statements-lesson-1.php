@@ -104,8 +104,21 @@ if ($_POST['SUBWAY']) {
 			$comment = "Fly Birdie, Fly away from the center of the normal distribtuon. YOU CAN DO IT!";
 			reportCall($name, $mark, $letter, $comment);
 		}
-		
-	
+		else if ($mark >= 80 AND $mark < 90) {
+			$letter = "A-";
+			$comment = "I present the moula -- AN A!!!!";
+			reportCall($name, $mark, $letter, $comment);
+		}
+		else if ($mark == 90) {
+			$letter = "A";
+			$comment = "AND I saw AAAA--AAAA--AAAA, ehhhh!!!.";
+			reportCall($name, $mark, $letter, $comment);
+		}
+		else if ($mark > 90 AND $mark <= 100) {
+			$letter = "A+";
+			$comment = "Top echelon material baby!";
+			reportCall($name, $mark, $letter, $comment);
+		}
 	}
 	function reportCall($name, $mark, $letter, $comment) {
 			//HEADER
