@@ -10,7 +10,9 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+h1 {
+	line-height: 0;
+}
 h2 {
 	color: white;
 	text-transform: uppercase;
@@ -28,26 +30,28 @@ textarea {
 }
 
 p {
-	color: rgba(255, 255, 255, 0.81);
+	color: rgba(67, 67, 67, 0.9);
 }
 
 .question {
 	text-transform: lowercase;
-	background-color: #0089ff;
+	background-color: rgb(0, 203, 23);
 	padding: 10px;
 	padding-top: 12px;
 	border-radius: 20px;
+	text-transform: uppercase;
 	text-align: center;
-	color: black;
+	color: rgba(255, 255, 255, 0.9);
 	font-weight: bold;
 }
 
 .formArea {
 	position: relative;
 	padding: 20px;
+	padding-bottom, padding-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(241, 239, 246, 0.71);
 }
 
 input[type=submit] {
@@ -80,23 +84,41 @@ input[type=submit] {
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
 }
-/* ###SOME OVERLAY STUFF I WAS WORKING ON BUT DIDN'T WORK OUT, FOR NOW
-.submitButton {
-	position: relative;
-	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgba(38, 38, 38, 0.7);	
-	background-image: url(http://33.media.tumblr.com/3adf15b0eb11cca95d32244ae7a30a19/tumblr_nhghueidi51qkno54o1_1280.gif);
-	background-size: cover;
-	background: rgb(150, 150, 150);
-	opacity: 0.2;
+.question-field {
+	background-color: rgba(193, 193, 193, 0.54);
+	padding: 10px;
+	font-size: 14px;
+	padding-top: 12px;
+	border-radius: 20px;
+	text-align: center;
+	color: rgba(38, 38, 38, 0.95);
+	font-weight: bold
 }
-.overlay {
-	background-image: url(http://33.media.tumblr.com/3adf15b0eb11cca95d32244ae7a30a19/tumblr_nhghueidi51qkno54o1_1280.gif);
-	background-size: cover;
-	width: auto;
-}*/
+::-webkit-input-placeholder {
+	text-align: center;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	
+	text-align: center;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	
+	text-align: center;
+}
+
+:-ms-input-placeholder {
+	text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
 
 .reportArea {
 	position: relative;
@@ -104,5 +126,32 @@ input[type=submit] {
 	display: none;
 	margin-left: auto;
 	margin-right: auto;
-	background: rgba(46, 46, 46, 0.7);
+	background: rgba(3, 3, 3, 0.79);
+	color: white;
+}
+.notice {
+	font-family: "aktiv-grotesk-std";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 14px;
+	width: 85%;
+}
+.error {
+	color: rgba(211, 0, 0, 0.88);
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.reportHeader {
+	color: rgba(0, 211, 24, 0.88);
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.reportText {
+	color: white;
+}
+.superStar {
+	color: rgba(49, 211, 0, 0.88);
+	font-weight: 800;
+	font-style: italic;
+	text-shadow: 3px 3px rgba(229, 229, 229, 0.87);
 }
