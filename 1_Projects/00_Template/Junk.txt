@@ -39,7 +39,14 @@ echo $var1 . " words are here " . $var2
 
 
 
-
+echo "<p><i>Report/i></p>";
+	echo "<hr>";
+	
+	echo '<style type="text/css">
+        .reportArea {
+            display: inherit;
+        }
+        </style>'; 
 
 
 
