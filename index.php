@@ -90,7 +90,7 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/14_Activity_2-2">See Code Source</a>
         </li>
 		
-		<li><a href="/1_Projects/14_Activity_2-2/activity-2-2b.php">Activity 2.2.1 "Conditional Statements Intro"</a>
+		<li><a href="/1_Projects/15_Activity_2-2-1/conditional-statements-lesson-1.php">Activity 2.2.1 "Conditional Statements Intro"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/15_Activity_2-2-1">See Code Source</a>
         </li>
 		
