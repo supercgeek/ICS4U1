@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+	padding: 10px;
+	background-image: url(http://media.giphy.com/media/oDGHPFy54tpVm/giphy.gif);
+	background-size: tile;
+	background-size: 10%;
+	background-position: 000px -175px;
+}
+h1 {
+	font-family: bigshot-one, serif;
+	font-size: 6em;
+	text-align: center;
+	color: rgba(16, 219, 16, 0.95);
+	text-shadow: 10px 10px rgba(8, 84, 255, 0.95), 20px 20px rgba(244, 0, 0, 0.95);
+}
+.selected {
+	    height:auto; 
+    	margin: 0 auto; 
+		font-size: 25px;
+		font-family: "vt323", serif; 
+}
+form {
+    width: 50%; 
+    margin: 0 auto;
+    text-align: center;
+	font-size:2 em;
+}
+.all {
+	
+}
