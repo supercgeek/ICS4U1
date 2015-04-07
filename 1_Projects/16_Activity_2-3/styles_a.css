@@ -13,12 +13,7 @@ h1 {
 	color: rgba(16, 219, 16, 0.95);
 	text-shadow: 10px 10px rgba(8, 84, 255, 0.95), 20px 20px rgba(244, 0, 0, 0.95);
 }
-.selected {
-	    height:auto; 
-    	margin: 0 auto; 
-		font-size: 25px;
-		font-family: "vt323", serif; 
-}
+
 form {
     width: 50%; 
     margin: 0 auto;
@@ -26,5 +21,63 @@ form {
 	font-size:2 em;
 }
 .all {
+	text-align: center;
+	font-family: "vt323", serif;
+}
+.description {
+	font-size: 40px;
+	color: #0025bf;
+	text-shadow: 1px 4px rgba(5, 244, 23, 0.72), 2px 8px rgba(244, 5, 189, 0.72), 3px 12px rgba(244, 106, 5, 0.72);
+	font-family: "vt323", serif;
+	text-align: center;
+}
+
+input[type=submit] {
+	font-weight: bold;
+	color: #000000;
+	font-size: 50px;
+	height: auto;
+	width: 185px;
+	padding: 10px;
+	background: rgba(244, 226, 15, 0.9);
+	border: none;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	font-family: "vt323", serif;
+	box-shadow: 4px 10px rgba(244, 5, 143, 0.72), 8px 20px rgba(5, 42, 244, 0.72), 12px 30px rgba(42, 244, 5, 0.72)
+}
+
+::-webkit-input-placeholder {
+	color: rgba(33, 33, 33, 0.94);
+	font-weight: bold;
+}
+
+.selecter {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 25px;
+	height: auto;
+	width: 170px;
+	padding: 15px;
+	background-color: ////
+	border: none;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	font-family: "vt323", serif;
+	box-shadow: 4px 10px rgba(244, 5, 143, 0.72), 8px 20px rgba(5, 42, 244, 0.72), 12px 30px rgba(42, 244, 5, 0.72)
+}
+.image {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 25px;
+	height: auto;
+	width: 65%;
+	border: none;
+	margin: 0px auto;
+	display:block;
+	-webkit-border-radius: 5px;
+	border-radius: 20px;
+	font-family: "vt323", serif;
+	box-shadow: 4px 10px rgba(244, 5, 143, 0.72), 8px 20px rgba(5, 42, 244, 0.72), 12px 30px rgba(42, 244, 5, 0.72)
 	
 }
