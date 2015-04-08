@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Activity 2.5b Output - FOR Loops</title>
+		<title>Activity 2.5c Output - Nested FOR Loops</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 		<!--STYLESHEET LOAD-->
@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-		<h1>Activity 2.5b Output - FOR Loops</h1>
+		<h1>Activity 2.5c Output - Nested FOR Loops</h1>
 		<p><a href="activity-2-5c.php?go=yes">Click Here to Run</a></p>
 		<?php
 		if ($_GET['go'] == "yes") {
