@@ -64,8 +64,7 @@ if ($_GET['GO']) {
 		if ($B == null) {$check = $check + 1;}
 
 		if ($check > 1) {
-			echo "<p class='description'>Please input 4 of the 5 variables.</p>";
-			 
+			echo "<p class='description'>Please input 4 of the 5 variables.</p>";	 
 		}
         else {
 		//VARIABLE COMPUTE
@@ -76,7 +75,7 @@ if ($_GET['GO']) {
 			}
 			else if ($N == "") {
 				//Formula isolated for $N
-				$N = (($B * $L)/($mu * $I));
+				$N = abs((($B * $L)/($mu * $I)));
 				printMethod($mu, $N, $I, $L, $B);
 			}
 			else if ($I == "") {
