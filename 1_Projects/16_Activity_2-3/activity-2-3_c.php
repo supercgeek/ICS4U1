@@ -28,7 +28,7 @@
 		//PERSON TO THE LEFT — 1
 		echo "<p class='status'>You see a weird figure in the distance. Dash toward him in attack or run away?<br>
 		<br><img src='http://fc01.deviantart.net/fs70/f/2014/300/3/7/day4_by_valenberg-d84bw5s.gif'><br>
-		<a href='/activity-2-3_c.php?option=5'>DASH TOWARDS</a> | <a href='/activity-2-3_c.php?option=5'>RUN AWAY</a></p>";
+		<a href='/1_Projects/16_Activity_2-3/activity-2-3_c.php?option=5'>DASH TOWARDS</a> | <a href='/1_Projects/16_Activity_2-3/activity-2-3_c.php?option=5'>RUN AWAY</a></p>";
 	}
 	else if ($option == "5") {
 		//PERSON TO THE LEFT, DASH TOWARDS & RUN AWAY [DEAD] — 6
