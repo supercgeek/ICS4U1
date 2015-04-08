@@ -5,7 +5,7 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 		<!--STYLESHEET LOAD-->
-		<link rel="stylesheet" type="text/css" href="styles_a.css">
+		<link rel="stylesheet" type="text/css" href="styles_b.css">
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 	</head>
 
