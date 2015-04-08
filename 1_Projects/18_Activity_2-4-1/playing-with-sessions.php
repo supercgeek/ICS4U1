@@ -17,6 +17,8 @@ session_start();
 	if ($_SESSION['losses'] == "") { 
 		$_SESSION['losses'] = 0;
 	}
+	$wins = $_SESSION['wins']; $_SESSION['wins']  = $wins; /* Create local variable from sesson*/
+	echo $wins;
 
 	// title for the page
 	echo "<h1>PHP SESSIONS</h1>";
@@ -35,13 +37,14 @@ session_start();
 
 		if ($randNum == 3) {
 			echo "<p>The number equalled 3. YOU WIN!</p>";
-			$_SESSION['wins']  = $_SESSION['wins']  + 1;
+			//$_SESSION['wins']  = $_SESSION['wins']  + 1;
+			$wins  = $_SESSION['wins']  + 1; $_SESSION['wins']  = $wins; /* Writing to local variable*/
 		} else {
 			echo "<p>The number did NOT equal 3. YOU LOSE!</p>";
 			$_SESSION['losses']  = $_SESSION['losses']  + 1;
 		}
 	}
-
+	$_SESSION['wins']  = $wins; /* Writing from local variable back to sesson*/
 	echo "<p>WINS: " . $_SESSION['wins'] . " |  LOSSES: " . $_SESSION['losses'] . "</p>";
 	echo "<p><a href='playing-with-sessions.php'>ROLL AGAIN</a> | <a href='playing-with-sessions.php?reset=yes'>RESET</a></p>";
 	?>
