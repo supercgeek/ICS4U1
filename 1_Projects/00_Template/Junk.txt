@@ -1,4 +1,7 @@
 
+investigate: 
+
+"autocomplete="off" onkeypress="return onlyNumbers(event);" step="any"></in"
 
 background-color: $hexColour;
 

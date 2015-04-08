@@ -17,57 +17,53 @@
 			I = current<br>
 			L = length of coiled wired<br>
 			B = magnetic field strength<br><br>
-			
 		</p>
-			<p><a href="http://en.wikipedia.org/wiki/Electromagnet">Wiki Article</a></p>
-	
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/hajIIGHPeuU" frameborder="0" allowfullscreen></iframe>
 		<div class="selected">
-			<form class="answer" name="calculator" action="electromagnet-calculator.php" method="POST">
-				mu <input class="selecter" type="mu" value=""></input>
-				N <input class="selecter" type="N" value=""></input>
-				I <input class="selecter" type="I" value=""></input>
-				L <input class="selecter" type="L" value=""></input>
-				B <input class="selecter" type="B" value=""></input>
-				<br><input type="submit" name="GO" value="SUBMIT"></input>
+			<form class="answer" name="calculator" action="electromagnet-calculator.php" method="get">
+				mu <input class="selecter" type="number" name="mu" value=""></input>
+				N <input class="selecter" type="number" name="N" value=""></input>
+				I <input class="selecter" type="number" name="I" value=""></input>
+				L <input class="selecter" type="number" name="L" value=""></input>
+				B <input class="selecter" type="number" name="B" value=""></input>
+				<input type="submit" name="GO" value="SUBMIT"></input>
 			</form>
 		</div>
 	</div>
 <?php
 //THE MAGIC
-if ($_POST['GO']) {
+if ($_GET['GO']) {
 	//Assignment
-	$mu = $_POST['mu'];
-	$N = $_POST['N'];
-	$I = $_POST['I'];
-	$L = $_POST['L'];
-	$B = $_POST['B'];
-	$check = "0"; /*Special Var*/
-	//Conditions
+	$mu = $_GET['mu'];
+	$N = $_GET['N'];
+	$I = $_GET['I'];
+	$L = $_GET['L'];
+	$B = $_GET['B'];
+	$check = "0"; /* Special Var */
 	
-		
+	//Function Assertion
+	function printMethod($mu, $N, $I, $L, $B) {
+	echo "<p class='description'>magnetic permeability = <b><i>$mu</b></i> H/m</p>";
+	echo "<p class='description'>number of turns/coils = <b><i>$N</b></i></p>";
+	echo "<p class='description'>current = <b><i>$I</b></i> Amps</p>";
+	echo "<p class='description'>length of coiled wired = <b><i>$L</b></i> meters</p>";
+	echo "<p class='description'>magnetic field strength = <b><i>$B</b></i> Tesla</p>"; }
 	
-		if ($mu == null){
-			$check = $check + 1;
-			echo "$check<br>";
-		}
-		if (empty($N) == TRUE){
-			$check = $check + 1;
-			echo "$check<br>";
-		}
-		if (empty($I) == TRUE){
-			$check = $check + 1;
-			echo "$check<br>";
-		}
-		if (empty($L) == TRUE){
-			$check = $check + 1;
-			echo "$check<br>";
-		}
-		if (empty($B) == TRUE){
-			$check = $check + 1;
-			echo $check;
-		}
-		
+	/*
+	echo "$mu<br>";
+	echo "$N<br>";
+	echo "$I<br>";
+	echo "$L<br>";
+	echo "$B<br>";
+	echo "$check<br>";
+	*/
+	
+		//Conditions 
+		if ($mu == null) {$check = $check + 1;}
+		if ($N == null) {$check = $check + 1;}
+		if ($I == null) {$check = $check + 1;}
+		if ($L == null) {$check = $check + 1;}
+		if ($B == null) {$check = $check + 1;}
+
 		if ($check > 1) {
 			echo "<p class='description'>Please input 4 of the 5 variables.</p>";
 			 
@@ -75,22 +71,22 @@ if ($_POST['GO']) {
 		//VARIABLE COMPUTE
 			if ($mu == "") {
 				//Formula isolated for $mu
-				
+				$mu = (($B * $L)/($N * $P)); 
 				printMethod($mu, $N, $I, $L, $B);
 			}
 			else if ($N == "") {
 				//Formula isolated for $N
-				
+				$N = (($B * $L)/($mu * $I));
 				printMethod($mu, $N, $I, $L, $B);
 			}
 			else if ($I == "") {
 				//Formula isolated for $I
-				
+				$I = (($B * $L)/($mu * $N));
 				printMethod($mu, $N, $I, $L, $B);
 			}
 			else if ($L == "") {
 				//Formula isolated for $L
-				
+				$L = abs((($mu * $N * $I)/($B))); /* Never took Pyhsics, but obviously can't have negative length, still not sure if this is a correct procedure or okay thing to do */
 				printMethod($mu, $N, $I, $L, $B);
 			}
 			else {
@@ -100,16 +96,15 @@ if ($_POST['GO']) {
 			} 
 		}
 
-	function printMethod($mu, $N, $I, $L, $B) {
-	echo "<p class='description'>magnetic permeability = <b><i>$mu</b></i> H/m</p>";
-	echo "<p class='description'>number of turns/coils = <b><i>$N</b></i></p>";
-	echo "<p class='description'>current = <b><i>$I</b></i> Amps</p>";
-	echo "<p class='description'>length of coiled wired = <b><i>$L</b></i> meters</p>";
-	echo "<p class='description'>magnetic field strength = <b><i>$B</b></i> Tesla</p>";
-	}
+	
+
 }
 
 ?>
+<!--eOTHER JUNK-->
+<br><br><p><a href="http://en.wikipedia.org/wiki/Electromagnet">Wiki Article</a></p>
+	
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/hajIIGHPeuU" frameborder="0" allowfullscreen></iframe>
 </body>
 
 </html>
