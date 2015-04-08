@@ -122,6 +122,25 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/18_Activity_2-4-2">See Code Source</a>
         </li>
 
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5a.php">Activity 2.5 "Part A"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5b.php">Activity 2.5 "Part B"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5c.php">Activity 2.5 "Part C"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5d.php">Activity 2.5 "Part D"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5e.php">Activity 2.5 "Part E"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
   		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--
 		<h3 id="S-HEADING">Section FIVE</h3>
