@@ -18,8 +18,19 @@
 		if ($_GET['roll'] == "indeed") {
 		$roll = rand(1,6);
 		echo "<p>You rolled a " . $roll . ". </p>";
-		echo "<img src='http://fwrd.io/2_Assets/1_Images/Dice-Game/die' . $roll . '.gif\">";
-		echo "<img src='http://f.cl.ly/items/1W2q2z240b3A1j2h393p/0.-LEAKED_800.jpg'>";
+		echo "<img src=\"http://fwrd.io/2_Assets/1_Images/Dice-Game/die" . $roll . ".gif\" alt=\"die image\">";
+		echo "<hr>";
+		$computerRoll = rand(1,6);
+		echo "<p>The computer rolled a " . $computerRoll . ". </p>";
+		echo "<img src=\"http://fwrd.io/2_Assets/1_Images/Dice-Game/die" . $computerRoll . ".gif\" alt=\"die image\">";
+		if ($computerRoll == $roll) {
+			
+			echo "<p>You guessed correctly! Yipeey!</p>";
+		}
+		else {
+			echo "<p>Try again, I'm sure you'll get it soon :)</p>";
+		}
+
 		}
 		?>
 	</body>
