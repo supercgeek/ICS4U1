@@ -13,7 +13,7 @@
 		<h1>Activity 2.5d Temperature Conversions DO WHILE LOOPS</h1>
 		<p>Enter a starting number (smaller #) and ending number (bigger #) in°C" and this table will calculate the results.</p>
 		<form>
-		Starting Number: <input type="number" name="startValue" placeholder="Start Value in °C">
+		Starting Number: <input type="number" name="initialHeight " placeholder="Start Value in °C">
 		Ending Number: <input type="number" name="endValue" placeholder="End Value in °C">
 		<input type="submit" name="go" value="Click Here to Run">
 		</form>
