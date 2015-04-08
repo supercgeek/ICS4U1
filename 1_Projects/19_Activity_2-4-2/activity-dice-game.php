@@ -11,13 +11,17 @@
 
 	<body>
 		<h1>Dice Game!</h1>
-		<h3>Demonstrates rolling a die</h3>
+		<h3>Demonstrates rolling a die.</h3>
+		<p><a href="activity-dice-game.php?roll=indeed">Click Here to Roll Again</a></p>
 		<?php
 		// rand() function randomly picks a number between 1 and 6 and assigns it to the variable $roll
-		$roll = rand(1,6); 
+		if ($_GET['roll'] == "indeed") {
+		$roll = rand(1,6);
 		echo "<p>You rolled a " . $roll . ". </p>";
-		echo "<img src=\"images/die" . $roll . ".gif\" alt=\"die image\">";
+		echo "<img src='http://fwrd.io/2_Assets/1_Images/Dice-Game/die' . $roll . '.gif\">";
+		echo "<img src='http://f.cl.ly/items/1W2q2z240b3A1j2h393p/0.-LEAKED_800.jpg'>";
+		}
 		?>
-		<p>Refresh this page in the browser to roll another die.</p>
 	</body>
 </html>
+
