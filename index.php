@@ -106,6 +106,12 @@
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/16_Activity_2-3">See Code Source</a>
         </li>
 		
+		<li><a href="/1_Projects/17_Activity_2-4/electromagnet-calculator.php">Activity 2.4 "Electromagnet Calculator"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/17_Activity_2-4">See Code Source</a>
+        </li>
+		
+		
+		
   		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--
 		<h3 id="S-HEADING">Section FIVE</h3>
