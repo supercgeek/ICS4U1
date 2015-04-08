@@ -13,6 +13,7 @@ h1 {
 }
 p {
 	color: white;
+	line-height: 0px;
 }
 ::-webkit-input-placeholder {
 	color: rgba(33, 33, 33, 0.94);
