@@ -31,7 +31,7 @@
 			<!--time increment over which the calculation will be calculated).  The time step can range from 0.01 seconds to 2.0 seconds.-->
 				
 			<b> Submit 1: <input name="run" type="submit" value="Press this for All Calculations"><BR><BR>
-			<b> Submit 2: <input name="run-one" type="submit" value="Press this for the Final Answer Only">
+			<b> Submit 2: <input name="run-one" type="submit" value="Press this for the Final Answer Only"><BR>
 		</form><BR><BR>	
 		<?php
 
@@ -90,10 +90,9 @@
 				$clock = $clock + $time;
 				}	
 			}
-			
+		echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clock  seconds to fall $building meters and hit the ground.<BR><BR>
+				Note: Try a smaller Time-Step to get a more accurate solution.</span>";	
 		}
-				echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clock  seconds to fall $building meters and hit the ground.<BR><BR>
-				Note: Try a smaller Time-Step to get a more accurate solution.</span>";
 		?>
 	</body>
 </html>

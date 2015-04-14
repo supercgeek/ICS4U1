@@ -12,7 +12,7 @@
 	<body>
 		<h1>Dice Game!</h1>
 		<h3>Demonstrates rolling a die.</h3>
-		<p><a href="activity-dice-game.php?roll=indeed">Click Here to Roll Again</a></p>
+		<p><a href="activity-dice-game_EXT.php?roll=indeed">Click Here to Roll Again</a></p>
 		<?php
 		// rand() function randomly picks a number between 1 and 6 and assigns it to the variable $roll
 		if ($_GET['roll'] == "indeed") {
