@@ -10,7 +10,6 @@
 		<link rel="stylesheet" type="text/css" href="styles_f.css">
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 	</head>
-
 	<body>
 		<h1>Activty 2.5f Physics Calculation - Using Loops</h1>
 		<p>Calculate the time it takes for a cat to fall from the top of a building by filling the following fields.</p>
