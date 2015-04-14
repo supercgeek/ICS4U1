@@ -15,10 +15,13 @@
 		<h1>Activty 2.5g Physics Calculation - Using Loops</h1>
 		<p>Calculate the time it takes for a cat to fall from the top of a building by filling the following fields.</p>
 		
-		<form name="test" method="get" action="activity-2-5f.php">
+		<form name="test" method="get" action="activity-2-5g.php">
 			<b>Building Height: <input type="number" name="building" placeholder="Any # > 50 AND <= 1500 (meters)"><BR><BR>
 			<!--Greater than 50 metres and lesser than or equal 1500m-->
-
+			
+			<b>Initial Speed: <input type="number" name="speed" placeholder="Any + OR - # (meters/second)"><BR><BR>
+			<!--Greater than 50 metres and lesser than or equal 1500m-->
+					
 				<b> Time-Step: <select name="time">
 									<option value=""> — </option>
 									<option value="2"> 2 Secs</option> // 2 Seconds
@@ -34,12 +37,13 @@
 			<b> Submit 2: <input name="run-one" type="submit" value="Press this for the Final Answer Only"><BR>
 		</form><BR><BR>	
 		<?php
-
+		// calculating all steps
 		if ($_GET['run']) {
 			
 			// ASSIGNMENT
 			$building = $_GET['building'];
 			$time = $_GET['time'];
+			$speed = $_GET['speed'];
 			$clock = 0;
 			if ($time == "") {$time = "null";}
 			
@@ -50,29 +54,55 @@
 			}
 			else {
 				// PRINTING
-				echo "<p> For a <span class='spaner'> $building</span> meter tall building, and using the time step <span class='spaner'> $time</span>, the results are the following:</p>";
+				echo "<p> For a <span class='spaner'> $building</span> meter tall building, using the time step <span class='spaner'> $time</span> and with the inital speed <span class='spaner'> $speed</span>, the results are the following:</p>";
 				echo "<table style='undefined;table-layout: fixed; width: 400px'>
 					<tr>
 						<th>Time</th>
 						<th>Height Above Ground</th>
   					</tr>
 				</table>";
-			 	while ($heightAboveGround >= 0) {
-					$heightAboveGround = $building - 4.9*$clock*$clock;
-					echo "<table style='undefined;table-layout: fixed; width: 400px'>
-					<tr>
-						<th><span class='nice-spaner'>$clock</span></th>
-						<th><span class='nice-spaner'>$heightAboveGround</span></th>
-  					</tr>
-				</table>";
-				$clock = $clock + $time;
-				}	
+				if ($speed >= 0){
+	//				PLUS VERSION
+					while ($heightAboveGround >= 0) {
+						
+						$heightAboveGround = $building + $speed*$clock - 4.9*pow($clock,2);
+						echo "<table style='undefined;table-layout: fixed; width: 400px'>
+						<tr>
+							<th><span class='nice-spaner'>$clock</span></th>
+							<th><span class='nice-spaner'>$heightAboveGround</span></th>
+						</tr>
+					</table>";
+					$clock = $clock + $time;
+					}
+					$clockResult = $clock - $time; //Accouns for the offset of the $clock calculation taking place at the end of the loop.
+					echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clockResult  seconds to fall $building meters and hit the ground.<BR><BR>
+				Note: Try a smaller Time-Step to get a more accurate solution.</span><BR><BR><BR>";
+				}
+				else
+				{
+	//				MINUS VERSION
+					while ($heightAboveGround >= 0) {
+						$heightAboveGround = $building - abs($speed)*$clock - 4.9*pow($clock,2);
+						echo "<table style='undefined;table-layout: fixed; width: 400px'>
+						<tr>
+							<th><span class='nice-spaner'>$clock</span></th>
+							<th><span class='nice-spaner'>$heightAboveGround</span></th>
+						</tr>
+					</table>";
+					$clock = $clock + $time;
+					}
+					$clockResult = $clock - $time; //Accouns for the offset of the $clock calculation taking place at the end of the loop.
+					echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clockResult  seconds to fall $building meters and hit the ground.<BR><BR>
+				Note: Try a smaller Time-Step to get a more accurate solution.</span><BR><BR><BR>";
+				}
 			}
 		}
+		// calculating no steps
 		else if ($_GET['run-one']) {
 			// ASSIGNMENT
 			$building = $_GET['building'];
 			$time = $_GET['time'];
+			$speed = $_GET['speed'];
 			$clock = 0;
 			if ($time == "") {$time = "null";}
 			
@@ -83,15 +113,33 @@
 			}
 			else {
 				// PRINTING
-				echo "<p> For a <span class='spaner'> $building</span> meter tall building, and using the time step <span class='spaner'> $time</span>, the results are the following:</p>";
+				echo "<p> For a <span class='spaner'> $building</span> meter tall building, using the time step <span class='spaner'> $time</span> and with the inital speed <span class='spaner'> $speed</span>, the results are the following:</p>";
 			
-			 	while ($heightAboveGround >= 0) {
-					$heightAboveGround = $building - 4.9*$clock*$clock;
-				$clock = $clock + $time;
+			 	if ($speed >= 0){
+	//				PLUS VERSION
+					while ($heightAboveGround >= 0) {
+						$heightAboveGround = $building + $speed*$clock - 4.9*pow($clock,2);
+					$clock = $clock + $time;
+					}
+				$clockResult = $clock - $time; //Accouns for the offset of the $clock calculation taking place at the end of the loop.
+				$clockResult = $clock - $time; //Accouns for the offset of the $clock calculation taking place at the end of the loop.
+					echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clockResult  seconds to fall $building meters and hit the ground.<BR><BR>
+				Note: Try a smaller Time-Step to get a more accurate solution.</span><BR><BR><BR>";
+				}
+				else
+				{
+	//				MINUS VERSION
+					while ($heightAboveGround >= 0) {
+						$heightAboveGround = $building - abs($speed)*$clock - 4.9*pow($clock,2);
+					$clock = $clock + $time;
+					}
+				$clockResult = $clock - $time; //Accouns for the offset of the $clock calculation taking place at the end of the loop.
+					echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clockResult  seconds to fall $building meters and hit the ground.<BR><BR>
+				Note: Try a smaller Time-Step to get a more accurate solution.</span><BR><BR><BR>";
 				}	
+			
 			}
-			echo "<BR><BR><span class='ampleSpace'>The cat took approximately $clock  seconds to fall $building meters and hit the ground.<BR><BR>
-				Note: Try a smaller Time-Step to get a more accurate solution.</span><BR><BR>";
+			
 		}
 				
 		?>
