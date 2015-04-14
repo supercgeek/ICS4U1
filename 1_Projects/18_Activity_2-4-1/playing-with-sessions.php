@@ -17,8 +17,9 @@ session_start();
 	if ($_SESSION['losses'] == "") { 
 		$_SESSION['losses'] = 0;
 	}
-	$wins = $_SESSION['wins']; $_SESSION['wins']  = $wins; /* Create local variable from sesson*/
-	echo $wins;
+	$wins = $_SESSION['wins'];
+	$_SESSION['wins'] = $wins; /* Create local variable from sesson*/
+	// echo $wins;
 
 	// title for the page
 	echo "<h1>PHP SESSIONS</h1>";
