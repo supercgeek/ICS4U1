@@ -1,11 +1,26 @@
+h1, b, table {
+	background-color: rgba(20, 0, 255, 0.65);
+	padding: 20px;
+	color: rgb(0, 255, 255);
+	
+}
+table {
+	padding: 0px;
+}
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(http://36.media.tumblr.com/tumblr_m740e66uJw1qktmdxo1_540.png);
+	background-image: url(http://40.media.tumblr.com/c1637af680e64d57a9446787c6df83ea/tumblr_nb7pqc53961s93a1ao1_1280.jpg);
 	background-size: cover;
+	background-position: center;
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
 	color: #000000;
 	line-height: 20px
+}
+p {
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 4px;
+	color: white;
 }
 a {
 	color: #0027ff;
@@ -15,4 +30,25 @@ a {
 	color: red;
 	font-size: 20px;
 	font-weight: bold;
+}
+input {
+	width: 200px;
+}
+.spaner {
+	background-color: yellow;
+	padding: 4px;
+	color: black;
+}
+.bad-spaner {
+	background-color: rgba(255, 59, 0, 0.9);
+	padding: 4px;
+	color: white;
+}
+.nice-spaner {
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 4px;
+	color: white;
+}
+.ampleSpace {
+	margin-top: 500px;
 }
