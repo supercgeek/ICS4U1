@@ -141,6 +141,15 @@
 		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5e.php">Activity 2.5 "Part E"</a>
             <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
         </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5f.php">Activity 2.5 "Part F"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
+		<li><a href="/1_Projects/20_Activity_2-5/activity-2-5g.php">Activity 2.5 "Part G"</a>
+            <br><a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/20_Activity_2-5">See Code Source</a>
+        </li>
+		
   		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--
 		<h3 id="S-HEADING">Section FIVE</h3>
