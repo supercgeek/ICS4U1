@@ -9,8 +9,7 @@
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 </head>
 <body>
-<?php 
-	<?php
+<?php
 	function namePrinter($name, $age, $job) {
 	     echo $name . " is " . $age . " years old and he is a " . $job . ".<BR>";
 	}
