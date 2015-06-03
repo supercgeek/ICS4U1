@@ -183,7 +183,7 @@
         </li>
 
         <li>
-            <a href="/1_Projects/20_Activity_2-5/activity-2-5g.php">Activity 2.6</a><br>
+            <a href="/1_Projects/20_Activity_2-5/activity-2-6a.php">Activity 2.6</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/21_Activity_2-6">See Code Source</a>
         </li>
 		
