@@ -1,17 +1,22 @@
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(https://s-media-cache-ak0.pinimg.com/736x/25/80/ec/2580ecf0b7b0fe7fe796e05fd076c974.jpg);
+	background-image: url(http://41.media.tumblr.com/327ab917157c32da25938dc941dac9b8/tumblr_nln9zo4Ojh1saxfomo1_1280.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-size: auto;
 
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
-	color: blue;
-	line-height: 35px;
+	color: darkblue;
+	font-size: 25px;
+	line-height: 55px;
 	font-weight: bold;
-	text-align: center;
 }
 a {
 	color: #0027ff;
 	font-weight: bold;
+}
+p{
+	text-shadow: 2px 2px #19dfc6;
+	line-height: 25px;
+	width: 950px;
 }
