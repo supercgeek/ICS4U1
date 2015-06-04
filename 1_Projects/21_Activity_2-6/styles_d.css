@@ -1,0 +1,17 @@
+body {
+	/*BACKGROUND SETTINGS*/
+	background-image: url(https://s-media-cache-ak0.pinimg.com/736x/25/80/ec/2580ecf0b7b0fe7fe796e05fd076c974.jpg);
+	background-size: cover;
+	background-size: auto;
+
+	/*FONT SETTINGS*/
+	font-family: lekton, sans-serif;
+	color: blue;
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	color: #0027ff;
+	font-weight: bold;
+}

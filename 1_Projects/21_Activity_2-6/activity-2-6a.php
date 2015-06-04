@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Activity 2.6a Output</title>
+	<title>Activity 2.6a</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 	<!--STYLESHEET LOAD-->
@@ -17,26 +17,18 @@
 	namePrinter("Bob", "6", "Pre-Schooler");
 	namePrinter("Kevin", "18", "High-Schooler");
 	namePrinter("Chris", "60", "Garbage Man");
-	?>
-
-
-<!-- 
 
 	// date_default_timezone_set(UTC);
-	$randNumber = rand(1,300);
+	// $randNumber = rand(1,300);
 	// echo $randNumber;
 	// echo "<BR>";
 	// echo date("Y/M/D");
-
-	function yumYum($randNumber) {
-		echo "<BR>";
-		echo "The Function is Fiddling: ";
-		echo $randNumber;
-	}
-
-
-	yumYum($randNumber); -->
-
- ?>
+	// function yumYum($randNumber) {
+	// 	echo "<BR>";
+	// 	echo "The Function is Fiddling: ";
+	// 	echo $randNumber;
+	// }
+	// yumYum($randNumber);
+?>
 </body>
 </html>

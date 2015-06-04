@@ -38,15 +38,15 @@
 	echo "<p><i>Therefore, with length being <b> $length </b> and width being <b> $width</b>, the Perimter of the $shape is <b>$ANSWER_1</b> units.</i></p>";
 	}
 	?>
-<!--
-A thing I'll figure out later.
-<form style="background:none!important;
-     border:none!important;
-     padding:0;
-     font-family: georgia;
-	 text-decoration: underline;
-     cursor: pointer;" name="clear_perimter" action="activity-2-2a.php" method="post"><input type="submit" name="calc_1-Clear" value="CLEAR"></input></form>
--->
+	<!--
+	A thing I'll figure out later.
+	<form style="background:none!important;
+	     border:none!important;
+	     padding:0;
+	     font-family: georgia;
+		 text-decoration: underline;
+	     cursor: pointer;" name="clear_perimter" action="activity-2-2a.php" method="post"><input type="submit" name="calc_1-Clear" value="CLEAR"></input></form>
+	-->
 	<br>
 	<!--Area CACLULATION-->
 	<h2>Area</h2>
@@ -67,7 +67,7 @@ A thing I'll figure out later.
 	//Printing
 	echo "<p><b>( 1/2 × $base ) × ( $height ) = $ANSWER_2</b></p>";
 	echo "<p><i>Therefore, with the base being <b> $base </b> and the height being <b> $height</b>, the Area of triangle is <b>$ANSWER_2</b> units.</i></p>";
-	
+
 	}
 	?>
 	<br>
@@ -106,7 +106,7 @@ A thing I'll figure out later.
 	<!--MAGIC NUMBER CALCUALTION-->
 	<h2>Magic Number</h2>
 	<p>Enter a number, wait for the Magic!</p>
-<form class="calc" name="magic" action="activity-2-2a.php" method="post">
+	<form class="calc" name="magic" action="activity-2-2a.php" method="post">
 ( <input class="calc_4" name="mystery" type="number" placeholder="type any number" required></input> ) = 
 	<input type="submit" name="calc_4-Button" value="ANSWER"></input>
 	</form>
