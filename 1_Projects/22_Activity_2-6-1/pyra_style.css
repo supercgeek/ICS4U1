@@ -1,14 +1,81 @@
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(http://www.math-salamanders.com/image-files/gfs-3d-shape-square-based-pyramid2.gif);
-	background-size: cotain;
+	background-image: url(http://www.aligninglight.com/wp-content/uploads/2013/12/pyramid.jpg);
+	background-size: contain;
 	/*FONT SETTINGS*/
-	font-family: lekton, sans-serif;
-	color: #000000;
-	line-height: 35px;
+	font-family: anonymous-pro, sans-serif;
+	line-height: 20px
+}
+
+h1,b {
+	background-color: rgba(88, 207, 19, 0.92);
+	padding: 20px;
+	color: rgb(250, 255, 0);
+	line-height: 2;
+	
+}
+h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+table {
+	padding: 10px;
+}
+p {
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 20px;
+	color: white;
+}
+input {
+	width: auto;
+}
+bb {
+	background-color: #360be6;
+	font-weight: bold;
+	padding: 4px;
+}
+.bb-base {
+	background-color: #360be6;
+}
+
+.bb-side {
+	background-color: #0b92e6;
+}
+
+.bb-height {
+	background-color: #790be6;
+}
+
+
+.report {
+	line-height: 2;
+}
+.alert {
+	color: red;
+	font-size: 20px;
 	font-weight: bold;
 }
-a {
-	color: #0027ff;
+.spaner {
+	background-color: yellow;
+	padding: 4px;
 	font-weight: bold;
+	color: black;
+}
+.bad-spaner {
+	background-color: rgba(255, 59, 0, 0.9);
+	padding: 4px;
+	color: white;
+}
+.nice-spaner {
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 4px;
+	color: white;
+}
+.ampleSpace {
+	margin-top: 500px;
+	margin-right: 200px;
+}
+.sub {
+	background-color: rgba(250, 127, 22, 0.83);
+	width: 50%;
 }
