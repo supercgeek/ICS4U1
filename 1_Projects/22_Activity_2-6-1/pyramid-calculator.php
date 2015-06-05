@@ -10,8 +10,9 @@
 		<script src="http://use.edgefonts.net/anonymous-pro:n4,i4,n7,i7:all.js"></script>
 	</head>
 	<body>
+		<!-- PART 1-->
 		<h1>Activty 2.6.1 "Pyramid Calculator"</h1>
-		<!-- PART ONE -->
+		<!-- CALCULATOR ONE -->
 		<BR><p class='sub'>PART 1: Calculate the volume or surface area of a Pyramid.</p>		
 		<form name="test" method="get" action="pyramid-calculator.php">
 			<!-- FIELDS -->
@@ -103,7 +104,7 @@
 			echo "</p></span>";
 			}
 		?>
-		<!-- PART TWO -->
+		<!-- CALCULATOR TWO -->
 		<BR><p class='sub'>PART 2: Solve the side length, base or height of a triangle, given the other two values.</p>		
 		<form name="test" method="get" action="pyramid-calculator.php">
 			<!-- FIELDS -->
@@ -190,5 +191,19 @@
 			}
 			}
 		?>
+		<!-- PART 2-->
+		<BR><BR>
+		<div class="pyra">The Great Pyramid of Giza<BR>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QZ7T2shexEM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><BR>
+			<bb class='bb-bot'>Height:</bb> 147 metres <BR>
+			<bb class='bb-bot'>Base:</bb> 230 metres <BR>
+			<bb class='bb-bot'>Side Length:</bb> 219 meters <BR>
+			<bb class='bb-bot'>Surface Area:</bb> 153640 metres^2 <BR>
+			<bb class='bb-bot'>Volume:</bb> 2592100  metres^3 <BR>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13824.027279961178!2d31.134202!3d29.979234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x810c2f3fa2a52424!2sThe+Great+Pyramid+at+Giza!5e0!3m2!1sen!2sca!4v1433488364752" width="600" height="450" frameborder="0" style="border:0"></iframe>
+			
+		<BR>
+	References: <a href="http://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg">Background Image</a>, <a href="http://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">Wikipedia</a>
+		</div><BR><BR>
 	</body>
 </html>

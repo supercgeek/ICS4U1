@@ -1,7 +1,6 @@
 body {
 	/*BACKGROUND SETTINGS*/
 	background-image: url(http://www.aligninglight.com/wp-content/uploads/2013/12/pyramid.jpg);
-	background-size: contain;
 	/*FONT SETTINGS*/
 	font-family: anonymous-pro, sans-serif;
 	line-height: 20px
@@ -41,7 +40,9 @@ bb {
 .bb-side {
 	background-color: #0b92e6;
 }
-
+.bb-bot {
+	background-color: #59b8f4;
+}
 .bb-height {
 	background-color: #790be6;
 }
@@ -59,6 +60,17 @@ bb {
 	background-color: yellow;
 	padding: 4px;
 	font-weight: bold;
+	color: black;
+}
+.pyra {
+	color: white;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg);
+	padding: 4px;
+	font-weight: bold;
+	height: auto;
+	width: 85%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	color: black;
 }
 .bad-spaner {
