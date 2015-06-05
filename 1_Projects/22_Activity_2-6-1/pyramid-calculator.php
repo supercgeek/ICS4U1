@@ -195,11 +195,11 @@
 		<BR><BR>
 		<div class="pyra">The Great Pyramid of Giza<BR>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/QZ7T2shexEM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><BR>
-			<bb class='bb-bot'>Height:</bb> 147 metres <BR>
-			<bb class='bb-bot'>Base:</bb> 230 metres <BR>
+			<bb class='bb-bot'>Height:</bb> ~147 metres <BR>
+			<bb class='bb-bot'>Base:</bb> ~230 metres <BR>
 			<bb class='bb-bot'>Side Length:</bb> 219 meters <BR>
-			<bb class='bb-bot'>Surface Area:</bb> 153640 metres^2 <BR>
-			<bb class='bb-bot'>Volume:</bb> 2592100  metres^3 <BR>
+			<bb class='bb-bot'>Surface Area:</bb> ~153,640 metres^2 <BR>
+			<bb class='bb-bot'>Volume:</bb> ~2,592,100  metres^3 <BR>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13824.027279961178!2d31.134202!3d29.979234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x810c2f3fa2a52424!2sThe+Great+Pyramid+at+Giza!5e0!3m2!1sen!2sca!4v1433488364752" width="600" height="450" frameborder="0" style="border:0"></iframe>
 			
 		<BR>
