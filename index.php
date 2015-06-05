@@ -201,6 +201,13 @@
             <a href="/1_Projects/21_Activity_2-6/activity-2-6d.php">Activity 2.6 "Part D"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/21_Activity_2-6">See Code Source</a>
         </li>
+
+        <li>
+            <a href="/1_Projects/21_Activity_2-6-1/pyramid-calculator.php">Activity 2.6.1 "Pyramid Calculator"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/21_Activity_2-6-1">See Code Source</a>
+        </li>
+
+
   		<!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
         <!--
 		<h3 id="S-HEADING">Section FIVE</h3>

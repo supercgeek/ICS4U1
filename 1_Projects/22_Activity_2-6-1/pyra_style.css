@@ -1,0 +1,14 @@
+body {
+	/*BACKGROUND SETTINGS*/
+	background-image: url(http://www.math-salamanders.com/image-files/gfs-3d-shape-square-based-pyramid2.gif);
+	background-size: cotain;
+	/*FONT SETTINGS*/
+	font-family: lekton, sans-serif;
+	color: #000000;
+	line-height: 35px;
+	font-weight: bold;
+}
+a {
+	color: #0027ff;
+	font-weight: bold;
+}
