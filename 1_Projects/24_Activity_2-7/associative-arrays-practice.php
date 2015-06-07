@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Activity 2.7 "Intro"</title>
+		<title>Activity 2.7 "Associative Arrays Practice"</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 		<!--STYLESHEET LOAD-->
