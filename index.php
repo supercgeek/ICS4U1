@@ -223,7 +223,7 @@
         </li>
 
         <li>
-            <a href="/html/1_Projects/24_Activity_2-7/associative-arrays-practice.php">Activity 2.7 "Associative Array Practice"</a><br>
+            <a href="/1_Projects/24_Activity_2-7/associative-arrays-practice.php">Activity 2.7 "Associative Array Practice"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-7">See Code Source</a>
         </li> 
 
@@ -238,7 +238,7 @@
         </li> 
 
         <li>
-            <a href="/html/1_Projects/24_Activity_2-7/activity-2-7-super-heros.php">Activity 2.7 "Super Heroes"</a><br>
+            <a href="/1_Projects/24_Activity_2-7/activity-2-7-super-heros.php">Activity 2.7 "Super Heroes"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-7">See Code Source</a>
         </li> 
         <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
