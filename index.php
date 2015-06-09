@@ -241,9 +241,11 @@
             <a href="/1_Projects/24_Activity_2-7/activity-2-7-super-heros.php">Activity 2.7 "Super Heroes"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-7">See Code Source</a>
         </li> 
+
         <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
-        <!--
 		<h3 id="S-HEADING">Section FIVE</h3>
+
+        <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
         </li>

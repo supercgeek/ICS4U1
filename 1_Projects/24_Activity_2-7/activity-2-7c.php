@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Activity 2.7 "Part B"</title>
+		<title>Activity 2.7 "Part C"</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 		<!--STYLESHEET LOAD-->
