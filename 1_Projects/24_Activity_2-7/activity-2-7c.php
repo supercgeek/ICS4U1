@@ -64,6 +64,7 @@ echo "<h2>Working with Multi-dimensional Arrays</h2>";
 echo "The array \"departments\" has " . count($departments) . " departments.";
 echo "<br />In total there are " . count($departments, COUNT_RECURSIVE) . " teachers.";
 
+//EXTENSIBLE MULTI-DIMENSIONAL ARRAY PRINTING
 for ($e = 0; $e < (count($departments)); $e++) {
 	echo "<p>The " . $departmentName[$e] . " deparment consists of the following teachers:</p>";
 	echo "<ol>";
