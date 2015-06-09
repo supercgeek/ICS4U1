@@ -19,19 +19,19 @@
 // SIX: ART
 
 // SUPER HEROS
-$supers[0] = "Clash";
-$supers[1] = "Spider";
+$supers[0] = "Star Man";
+$supers[1] = "Crash";
 $supers[2] = "Holk";
-$supers[3] = "Cooper Man";
-$supers[4] = "Dr. Squid";
+$supers[3] = "Volt";
+$supers[4] = "Zapito";
 $supers[5] = "Dog Lady";
-$supers[6] = "Tartan";
-$supers[7] = "Gladiyo";
-$supers[8] = "Tanker";
-$supers[9] = "Orange Light";
+$supers[6] = "Bite";
+$supers[7] = "Insect";
+$supers[8] = "Cooper Man";
+$supers[9] = "Bat Cat";
 
 
-/// SUPER PICTURES
+// SUPER PICTURES
 $supersPicture[0] = "http://vector-magz.com/wp-content/uploads/2013/03/American-Captain-Hero-vector1.png";
 $supersPicture[1] = "http://www.seeklogo.net/wp-content/uploads/2013/07/adobe-flash-8-eps-vector-logo.png";
 $supersPicture[2] = "http://www.mobygames.com/images/i/18/09/448809.gif";
@@ -43,25 +43,48 @@ $supersPicture[7] = "https://s-media-cache-ak0.pinimg.com/736x/31/be/15/31be151f
 $supersPicture[8] = "http://static.comicvine.com/uploads/original/4/46646/1999092-cyborg_icon_flashpoint.jpg";
 $supersPicture[9] = "http://img5.visualizeus.com/thumbs/3f/43/batman,superhero-3f4372e85f34a82025f25c7450f7d832_h.jpg";
 
+// SUPER SKILL VALUES
+$supersSkill[0] = 4;
+$supersSkill[1] = 6;
+$supersSkill[2] = 9;
+$supersSkill[3] = 3;
+$supersSkill[4] = 7;
+$supersSkill[5] = 8;
+$supersSkill[6] = 5;
+$supersSkill[7] = 4;
+$supersSkill[8] = 10;
+$supersSkill[9] = 2;
+
 //GENERATE SELECTED HEROS
 $firstPick = rand(0,4);
 $secondPick = rand(5,9);
-echo "firstPick: " . $firstPick;
-echo "<BR>secondPick: " . $secondPick;
+//echo "firstPick: " . $firstPick;
+//echo "<BR>secondPick: " . $secondPick;
 // display the information in the array
 echo "<table border='1'>";
 echo "<tr><td>Team 1</td><td>Team 2</td></tr>";
 for ($r = 0; $r < 5; $r++){
 	// echo "<BR>" . $r;
 //	echo "<tr><td>" . $supers[$r] . "</td><td>" .  $supers[($r + 5)]  . "</td></tr>";
-	$selectedC1 = isSelect1($selectedC1, $r, $firstPick);
-	$selectedC2 = isSelect2($selectedC2, $r, $secondPick);
-	echo "<BR>r: " . $r;
-	echo "<BR>----SC1: " . $selectedC1;
-	echo "<BR>----SC2: " . $selectedC2;
-	echo "<tr><td><img src ='"; . $supersPicture[$r] . "'>" . $selectedC1 . "</td><td><img src ='" . $supersPicture[$r + 5)] . "'>" . $selectedC2 . "</td></tr>";
+	$selectedC1 = isSelect1($r, $firstPick);
+	$selectedC2 = isSelect2($r, $secondPick);
+//	echo "<BR>r: " . $r;
+//	echo "<BR>----SC1: " . $selectedC1;
+//	echo "<BR>----SC2: " . $selectedC2;
+	echo "<tr><td><BR>" . $supers[$r] . "<BR><img src ='" . $supersPicture[$r] . "'><BR>" . $selectedC1 . "</td><td><BR>" . $supers[($r + 5)] . "<BR><img src ='" . $supersPicture[($r + 5)] . "'><BR>" . $selectedC2 . "</td></tr>";
 }
-function isSelect1 ($selectedC1, $r, $firstPick) {
+
+if ($supersSkill[$firstPick] == $supersSkill[$secondPick]) {
+	echo "<BR>Tie!!!<BR><BR>";
+}
+else if ($supersSkill[$firstPick] > $supersSkill[$secondPick]) {
+	echo "Team 1 wins!<BR><BR>";
+}
+else {
+	echo "Team 2 wins!<BR><BR>";
+}
+
+function isSelect1 ($r, $firstPick) {
 		// echo "<BR>(S1)";
 		// echo "<BR> -- R: " . $r;
 		// echo "<BR> -- FIRST PICK: " . $firstPick;
@@ -70,7 +93,7 @@ function isSelect1 ($selectedC1, $r, $firstPick) {
 		// echo "<BR>TRUE: " . $selectedC1;
 		return $selectedC1;
 }
-function isSelect2 ($selectedC2, $r, $secondPick) {
+function isSelect2 ($r, $secondPick) {
 		// echo "<BR>(S2)";
 		// echo "<BR> -- (R+5): " . ($r + 5);
 		// echo "<BR> -- SECOND PICK: " . $secondPick;
