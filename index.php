@@ -244,7 +244,7 @@
 
         <!--SECTION FIVE PROJECTS ARE BELOW (MYSQP DATABASES)-->
 		<h3 id="S-HEADING">Section FIVE</h3>
-
+        <p>Coming Soon...</p>
         <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
@@ -255,7 +255,12 @@
         </li>
         -->
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
+        <h3 id="S-HEADING">Section SIX</h3>
+        <p>Coming Soon...</p>
+
         <!--PERFORMANCE TASK-->
+        <h3 id="S-HEADING">Performance Task</h3>
+        <p>Coming Soon...</p>
     </ul>
     <!--JQUERY-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
