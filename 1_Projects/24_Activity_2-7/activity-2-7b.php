@@ -21,8 +21,8 @@
 		
 		<BR><BR>
 	</form>
-		
-		<?php
+
+<?php
 		//Accelerations
 		$acceleration[Mercury] = 3.76;
 		$acceleration[Venus] = 9.04;
@@ -52,5 +52,6 @@
 //     echo "<li>" . $course[$i] . "</li>";
 //}
 ?>
+
 	</body>
 </html>
