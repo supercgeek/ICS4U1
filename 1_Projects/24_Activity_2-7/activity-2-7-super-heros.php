@@ -52,21 +52,32 @@ echo "<BR>secondPick: " . $secondPick;
 echo "<table border='1'>";
 echo "<tr><td>Team 1</td><td>Team 2</td></tr>";
 for ($r = 0; $r < 5; $r++){
-	echo "<BR>" . $r;
+	// echo "<BR>" . $r;
 //	echo "<tr><td>" . $supers[$r] . "</td><td>" .  $supers[($r + 5)]  . "</td></tr>";
-	
-	if ($r == $firstPick && ($r + 5) == $secondPick) {
-			echo "<tr><td><img src ='" . $supersPicture[$r] . "'>SELECTED</td><td><img src ='" . $supersPicture[($r + 5)] . "'>SELECTED</td></tr>";
-	}
-	else if ($r == $firstPick && ($r + 5) != $secondPick) {
-			echo "<tr><td><img src ='" . $supersPicture[$r] . "'>SELECTED</td><td><img src ='" . $supersPicture[($r + 5)] . "'></td></tr>";
-			}
-	else if ($r != $firstPick && ($r + 5) == $secondPick) {
-			echo "<tr><td><img src ='" . $supersPicture[$r] . "'></td><td><img src ='" . $supersPicture[($r + 5)] . "'></td></tr>";
-	}
-	else {
-		echo "<tr><td><img src ='" . $supersPicture[$r] . "'></td><td><img src ='" . $supersPicture[($r + 5)] . "'></td></tr>";
-	}
+	$selectedC1 = isSelect1($selectedC1, $r, $firstPick);
+	$selectedC2 = isSelect2($selectedC2, $r, $secondPick);
+	echo "<BR>r: " . $r;
+	echo "<BR>----SC1: " . $selectedC1;
+	echo "<BR>----SC2: " . $selectedC2;
+	echo "<tr><td><img src ='"; . $supersPicture[$r] . "'>" . $selectedC1 . "</td><td><img src ='" . $supersPicture[$r + 5)] . "'>" . $selectedC2 . "</td></tr>";
+}
+function isSelect1 ($selectedC1, $r, $firstPick) {
+		// echo "<BR>(S1)";
+		// echo "<BR> -- R: " . $r;
+		// echo "<BR> -- FIRST PICK: " . $firstPick;
+		if ($r == $firstPick) {$selectedC1 = "selected";}
+		else if ($r != $firstPick) {$selectedC1 = "";}
+		// echo "<BR>TRUE: " . $selectedC1;
+		return $selectedC1;
+}
+function isSelect2 ($selectedC2, $r, $secondPick) {
+		// echo "<BR>(S2)";
+		// echo "<BR> -- (R+5): " . ($r + 5);
+		// echo "<BR> -- SECOND PICK: " . $secondPick;
+		if (($r + 5) == $secondPick) {$selectedC2 = "selected";}
+		else if ($r != $secondPick) {$selectedC2 = "";}
+		// echo "<BR>TRUE: " . $selectedC2;
+		return $selectedC2;
 }
 ?>
 	</body>
