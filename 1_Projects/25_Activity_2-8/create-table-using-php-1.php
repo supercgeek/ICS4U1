@@ -11,7 +11,7 @@ $sql = 'CREATE TABLE employee( '.
        'primary key ( emp_id ))';
 
 // query the database
-$result = mysql_query($sql,$db);
+$result = mysql_query($sql, $db);
 
 if(!empty($result)) {
 	echo "<p>table <i>employee</i> has been created.  Check it in your phpMyAdmin.</p>"; 
