@@ -14,6 +14,6 @@ if (!$db) {
     die('Could not connect to database: ' . mysql_error());
 } else {
     mysql_select_db($db_databasename, $db);
-    echo "Successfully connected to the database!"; // remove this in real scripts
+    echo "<B>Successfully connected to the database!</B><BR><BR>"; // remove this in real scripts
 }
 ?>
