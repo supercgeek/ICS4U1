@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!--STYLESHEET LOAD-->
-		<link rel="stylesheet" type="text/css" href="class_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles_2.css">
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 </head>
 <body>
@@ -12,7 +12,7 @@ include("connectToDB.inc.php"); // connect to the database
 ?>
 
 <h2>Select a Student to learn more about them!</h2>
-<p>In this activity you will learn to pull information out a the database to display in a selection field and then draw that information out of the database table</p>
+<p>Use the below selection box to choose a student from the class, you'll then be provided with information on that student. Enjoy!</p>
 
 <form action="activity_3-3_class-information.php" method="post">
 		<select name='id'>

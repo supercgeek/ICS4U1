@@ -6,14 +6,23 @@
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 </head>
 <body>
-<h2>Accessing Records from a MySQL Database Table</h2>
-<?
+<h2>Searching for Records from a MySQL Database Table</h2>
+<p>Use the below form to search for nations within a MySQL database. To show all countries, click search without entering a term.</p>
+<?php
 include("connectToDB.inc.php"); // connect to server 
-//echo "<BR>";
+?>
 
+<form action="activity_3-3_country-information2.php" method="get"> 
+	<input name="searchValue" value="">
+	<input type="submit" name="search" value="SEARCH">
+</form>
+<BR>
+	
+<?php
+$searchQ = $_GET['searchValue'];
 // Access the table from the MySQL database
 // syntax SELECT column_name(s) FROM table_name 
-$sql = "SELECT * FROM country_info"; // * == all
+$sql = "SELECT * FROM country_info WHERE country LIKE '%" . $searchQ . "%'"; // * == all
 $result = mysql_query($sql, $db);
 
 echo "<table>"; // start the table outside of the while loop
@@ -22,7 +31,7 @@ echo "<tr><td>Flag</td><td>Country</td><td>Population</td><td>Size (km<sup>2</su
 while ($myrow = mysql_fetch_array($result)) { 
 
 	// calculation of population density	
-	$popDensity = round(($myrow['population'] / $myrow['size']) ,0 ,PHP_ROUND_HALF_UP);
+	$popDensity = round(($myrow['population'] / $myrow['size']) , 0, PHP_ROUND_HALF_UP);
 
 	// flag image <img src='' alt=''’ title='' />
 	$flag = "<img src='" . $myrow['flag'] . "' title='" . $myrow['country'] . "'/>";
