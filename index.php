@@ -253,6 +253,17 @@
             <a href="/1_Projects/25_Activity_2-8/create-table-using-php-1.php">MySQL "Create a table using a Script"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
         </li> 
+        
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/activity_3-2_info-about-countries.php">Activity 3.2 "Country Info"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+        </li> 
+        
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/activity_3-2_class-information.php">Activity 3.2.1 "Class Information"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+        </li> 
+        
         <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>

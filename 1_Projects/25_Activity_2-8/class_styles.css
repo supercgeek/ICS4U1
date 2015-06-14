@@ -1,14 +1,16 @@
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(http://www.fromquarkstoquasars.com/wp-content/uploads/2014/06/massive-ocean-underground-earth.jpg);
+	background-image: url(http://quetraman.com/wp-content/uploads/2015/05/2014-architecture-high-school-best-design-on-architecture-high-school-1400x1000-1024x731.jpg);
 	background-size: cover;
+	background-color: #646464;
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
-	color: rgba(255, 255, 255, 0.95);
-	line-height: 20px
+	color: rgb(245, 255, 0);
+	line-height: 20px;
+	font-weight: bold;
 }
 a {
-	color: #0027ff;
+	color: #c30f0f;
 	font-weight: bold;
 }
 .alert {
@@ -29,5 +31,5 @@ tr {
 	border-color: #ffffff;
 }
 td {
-	padding: px;
+	padding: 7px;
 }
