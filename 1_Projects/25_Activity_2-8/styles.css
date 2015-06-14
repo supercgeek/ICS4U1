@@ -1,10 +1,10 @@
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(http://36.media.tumblr.com/tumblr_m740e66uJw1qktmdxo1_540.png);
+	background-image: url(http://www.fromquarkstoquasars.com/wp-content/uploads/2014/06/massive-ocean-underground-earth.jpg);
 	background-size: cover;
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
-	color: #000000;
+	color: rgba(255, 255, 255, 0.95);
 	line-height: 20px
 }
 a {
@@ -19,4 +19,15 @@ a {
 img {
 	width: 75px;
 	height: 75px;
+}
+
+table, th, td {
+	border: 2px solid #262626;
+	padding: 4px;
+}
+tr {
+	border-color: #ffffff;
+}
+td {
+	padding: 7px;
 }
