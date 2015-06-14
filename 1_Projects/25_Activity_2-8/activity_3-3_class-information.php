@@ -30,16 +30,19 @@ $sql = "SELECT * FROM class_information";
 	<input type="submit" name="submitBtn" value="Select Student" ></input><br/>
 </form>
 
-<?
+<?php
 if ($_POST['submitBtn']) {
 	$id = $_POST['id'];
 	
 	if ($id != "") {
 		// Access the table from the MySQL database
 		// syntax SELECT column_name(s) FROM table_name 
+		
 		$sql = "SELECT * FROM class_information WHERE student_id='" . $id . "'"; // magic line
-		$result = mysql_query($sql,$db);
+		$result = mysql_query($sql, $db);
+		
 		// basic output of the data from the table
+		
 		while ($myrow = mysql_fetch_array($result)) { 
 			echo "<p>" . $myrow['id'] . ". " . $myrow['first_name'] . " " . $myrow['last_name'] . "";
 			echo " is " . $myrow['age'] . " years old.  " . $myrow['first_name'] . "'s favourite food is " . $myrow['fav_food'] . ".";
@@ -48,9 +51,12 @@ if ($_POST['submitBtn']) {
 	} else {
 		// Access the table from the MySQL database
 		// syntax SELECT column_name(s) FROM table_name 
+		
 		$sql = "SELECT * FROM class_information";
-		$result = mysql_query($sql,$db);
+		$result = mysql_query($sql, $db);
+		
 		// basic output of the data from the table
+		
 		while ($myrow = mysql_fetch_array($result)) { 
 			echo "<p>" . $myrow['student_id'] . ". " . $myrow['first_name'] . " " . $myrow['last_name'] . "";
 			echo " is " . $myrow['age'] . " years old.  " . $myrow['first_name'] . "'s favourite food is " . $myrow['fav_food'] . ".";

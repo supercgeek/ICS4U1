@@ -263,7 +263,18 @@
             <a href="/1_Projects/25_Activity_2-8/activity_3-2_class-information.php">Activity 3.2.1 "Class Information"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
         </li> 
-        
+
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/activity_3-3_country-information.php">Activity 3.3 "Country Selecter"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+        </li> 
+
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/activity_3-3_class-information.php">Activity 3.3.1 "Class Selecter"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+        </li> 
+
+
         <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
