@@ -246,42 +246,42 @@
 		<h3 id="S-HEADING">Section FIVE</h3>
         <li>
             <a href="/1_Projects/25_Activity_2-8/connectToDB.inc.php">MySQL "Connect to DB"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
 
         <li>
             <a href="/1_Projects/25_Activity_2-8/create-table-using-php-1.php">MySQL "Create a table using a Script"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
         
         <li>
             <a href="/1_Projects/25_Activity_2-8/activity_3-2_info-about-countries.php">Activity 3.2 "Country Info"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
         
         <li>
             <a href="/1_Projects/25_Activity_2-8/activity_3-2_class-information.php">Activity 3.2.1 "Class Information"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
 
         <li>
             <a href="/1_Projects/25_Activity_2-8/activity_3-3_country-information.php">Activity 3.3 "Country Selecter"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
 
         <li>
             <a href="/1_Projects/25_Activity_2-8/activity_3-3_class-information.php">Activity 3.3.1 "Class Selecter"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
 
         <li>
             <a href="/1_Projects/25_Activity_2-8/activity_3-3_country-information2.php">Activity 3.3.2 "Country Search"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
 
         <li>
             <a href="/1_Projects/25_Activity_2-8/nhl-players-and-or-activity-3-4.php">MySQL "NHL Players"</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/24_Activity_2-8">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li> 
         <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
