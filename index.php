@@ -306,8 +306,8 @@
         -->  
 
         <!--PERFORMANCE TASK-->
-<!--         <h3 id="S-HEADING">Performance Task</h3>
-        <p class="cs">Coming Soon...</p>
+       <h3 id="S-HEADING">Performance Task</h3>
+<!--       <p class="cs">Coming Soon...</p>
  -->
         <li>
             <a href="/1_Projects/27_Activity_3/perf-task-1-scholarships.php">Performance Task #1 "University Scholarships"</a><br>
