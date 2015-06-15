@@ -11,23 +11,14 @@
 <body>
 <h1>Fast Food Yums!</h1><h3>Online Order Form</h3><BR><BR>
 
-<!--	
+<!--
 <div class = "box">
-	<img src="http://pixel.brit.co/wp-content/uploads/2013/05/8-BlackBurger.jpg">
-	<h2>Cheese Burger</h2>
-	<!--<BR>-->
-	<!--<p class = "price"><strong>$8.99</strong></p>
-	ORDER: <input type = "number" min = "0" name = "orderVal1" value = "" ></input>
+<img src="http://pixel.brit.co/wp-content/uploads/2013/05/8-BlackBurger.jpg">
+<h2>Cheese Burger</h2>
+<p class = "price"><strong>$8.99</strong></p>
+ORDER: <input type = "number" min = "0" name = "orderVal1" value = "" ></input>
 </div>
-
-<div class = "box">
-	<img src="http://www.fitbie.com/sites/default/files/worst-pasta-dishes-stouffers-fettucine-alfredo-ss.jpg">
-	<h2>Pasta</h2>
-	<!--<BR>-->
-	<!--<p class = "price"><strong>$6.99</strong></p>
-		ORDER: <input type = "number" min = "0" name = "orderVal2" value = "" ></input>
-</div>-->
-
+-->
 
 <?php
 include("DBC.php");
