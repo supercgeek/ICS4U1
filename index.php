@@ -293,25 +293,39 @@
             <a href="/1_Projects/25_Activity_2-8/activity_3-2_info-about-countries_insert.php">MySQL "Country Insert Test"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li>
-        <!--
-		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
-            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
-        </li>
         
-        <li><a href="[LINK]">Activity 2.2 "Part B"</a>
-            <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
-        </li>
-        -->
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
         <h3 id="S-HEADING">Section SIX</h3>
         <p class="cs">Coming Soon...</p>
 
+        <!--
+        <li>
+            <a href="/1_Projects/26_Activity_2-9/careers-in-computer-science.php">Careers in Computer Science</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/26_Activity_2-9">See Code Source</a>
+        </li>
+        -->  
+
         <!--PERFORMANCE TASK-->
         <h3 id="S-HEADING">Performance Task</h3>
         <p class="cs">Coming Soon...</p>
+
+        <!-- 
+        <li>
+            <a href="/1_Projects/27_Activity_3/perf-task-1-scholarships.php">Performance Task #1 "University Scholarships"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/27_Activity_3">See Code Source</a>
+        </li>    
+        
+        <li>
+            <a href="/1_Projects/27_Activity_3/perf-task-2-scholarships.php">Performance Task #2 "Fast Food Menu"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/27_Activity_3">See Code Source</a>
+        </li>   
+         -->
+
     </ul>
-    <!--JQUERY-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- TEMPLATE
+    <li><a href="[LINK]">Activity 2.2 "Part A"</a>
+        <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>
+    </li> -->
 </body>
 
 </html>
