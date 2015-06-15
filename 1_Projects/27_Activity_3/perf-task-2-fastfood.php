@@ -31,25 +31,70 @@ while ($row = mysql_fetch_array($result)) {
 	<img src = '" . $row['img'] .  "'>
 	<h2>" . $row['item'] .  "</h2>
 	<p class = 'price'><strong>$" . $row['cost'] .  "</strong></p>
-	ORDER: <input type = 'number' placeholder = '#' min = '0' name = '" . $row['item'] .  "Order_" . $row['item_id'] .  "' value = '' ></input>
+	ORDER: <input type = 'number' placeholder = '#' min = '0' name = 'OrderID-" . $row['item_id'] .  "' value = '' ></input>
 	</div>";
 	
+	//Create Array of Names of items on Menu
+	$itemNames[($row['item_id'])] = $row['item'];
+	
+	//Create Array of Prices of items on Menu
+	$itemPrices[($row['item_id'])] = $row['cost'];
 }
 ?>
-<!--COMPUTE ORDER-->
+
+<!--TALLY ORDER-->
 <div class = 'box' id = 'order'>
 <h2>TALLY ORDER</h2>
 <sub>&</sub>
-<h2>PRINT RECIPT</h2><BR>
+<h2>PRINT RECEIPT</h2><BR>
 <input type = "submit" class = "button" name = "tally" value = "CLICK!"></div>
 </form>
-<!--<a class = 'button' href = '/perf-task-2-fastfood.php?tally=yes'><strong>DO IT!</strong></a>"-->
 
 <?php
-if ($_GET['tally'] == "yes") {
-	// LOGIC ON COMPUTING DELIVERARY CHARGES
-	 
+if ($_GET['tally'] == "CLICK!") {
 	
+	
+	
+	//Create Array of Item Quantities Ordered
+	while ($r != count($itemNames, COUNT_RECURSIVE)) {
+		$r++;
+		$orderString = "OrderID-" . $r;
+		$itemQuants[$r] = $_GET[$orderString];
+	}
+	// Print Recipt 
+	echo "<div class = 'receipt'><h3>RECEIPT</h3><BR><BR>";
+		// echo "<div class = 'nested'>";
+	while ($p != count($itemNames, COUNT_RECURSIVE)) {
+		$p++;
+		if ($itemQuants[$p] < 1){
+			
+		} else {
+		$currentItemTotal = ($itemQuants[$p] * $itemPrices[$p]);
+		$subTotal = $subTotal + $currentItemTotal;
+		echo "<strong>" . $itemNames[$p] . "</strong><BR><span class = 'mono'> X"   . $itemQuants[$p] . " @ $" . $itemPrices[$p] . " =  $" . $currentItemTotal . "</span><BR><BR>";
+		}
+		// echo "</div>";
+		echo "<span class = 'mono'>Subtotal: " . $subTotal . "</span>";
+		
+		echo "<span class = 'mono'>Delivery Charge: " . delivery($subTotal) . "</span>";
+	}
+	
+	// LOGIC ON COMPUTING DELIVERARY CHARGES
+	
+	
+	echo "</div>";
+}
+function delivery($subTotal) {
+	if ($subTotal <= 5) {
+		$deliveryCharge = 5;
+	}
+	else if ($subTotal > 5 && $subTotal <= 15) {
+		$deliveryCharge = 3;
+	}
+	else {
+		$deliveryCharge = 0;
+	}
+	return $deliveryCharge;
 }
 ?>
 </body>
