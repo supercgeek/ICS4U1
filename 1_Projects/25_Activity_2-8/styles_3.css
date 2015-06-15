@@ -1,6 +1,6 @@
 body {
 	/*BACKGROUND SETTINGS*/
-/*	background-image: url(http://www.manicaarchitecture.com/paperclip/projects/6/39/medium/Upper-Bowl_Hockey-People.jpg);*/
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/4/4c/General_Motors_Place.jpg);
 	background-size: cover;
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
@@ -28,6 +28,10 @@ table, th, td {
 	padding: 4px;
 	background-color: rgba(0, 0, 0, 0.74);
 }
+p {
+	background-color: rgba(0, 0, 0, 0.74);
+}
+
 tr {
 	border-color: #ffffff;
 }
