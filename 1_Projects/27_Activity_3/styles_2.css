@@ -88,3 +88,7 @@ sub {
 	font-size: 15px;
 	color: white;
 }
+.total {
+	color: blue;
+	font-size: 25px;
+}

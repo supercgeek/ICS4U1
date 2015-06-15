@@ -74,13 +74,14 @@ if ($_GET['tally'] == "CLICK!") {
 		echo "<strong>" . $itemNames[$p] . "</strong><BR><span class = 'mono'> X"   . $itemQuants[$p] . " @ $" . $itemPrices[$p] . " =  $" . $currentItemTotal . "</span><BR><BR>";
 		}
 		// echo "</div>";
-		echo "<span class = 'mono'>Subtotal: " . $subTotal . "</span>";
-		
-		echo "<span class = 'mono'>Delivery Charge: " . delivery($subTotal) . "</span>";
 	}
-	
 	// LOGIC ON COMPUTING DELIVERARY CHARGES
-	
+	$deliveryFee = delivery($subTotal);
+	$taxFee = tax($subTotal);
+	echo "<span class = 'mono'>Subtotal: $" . $subTotal . "</span><BR>";	
+	echo "<span class = 'mono'>Delivery Charge: $" . $deliveryFee . "</span><BR>";
+	echo "<span class = 'mono'>Tax @ 13%: $" . $taxFee . "</span><BR><BR>";
+	echo "<span class = 'total'><strong> Total: " . total($subTotal, $deliveryFee, $taxFee) . "</strong></span";
 	
 	echo "</div>";
 }
@@ -95,6 +96,16 @@ function delivery($subTotal) {
 		$deliveryCharge = 0;
 	}
 	return $deliveryCharge;
+}
+function tax($subTotal){
+	$tax = 0.13 * ((delivery($subTotal)) + $subTotal);
+	$tax = round($tax, 2);
+	return $tax;
+}
+function total($subTotal, $deliveryFee, $taxFee) {
+	$total = $subTotal + delivery($subTotal) + tax($subTotal);
+	$total = round($total, 2);
+	return $total;
 }
 ?>
 </body>
