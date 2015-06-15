@@ -87,10 +87,10 @@ if ($_GET['tally'] == "CLICK!") {
 }
 function delivery($subTotal) {
 	if ($subTotal <= 5) {
-		$deliveryCharge = 5;
+		$deliveryCharge = 5.00;
 	}
 	else if ($subTotal > 5 && $subTotal <= 15) {
-		$deliveryCharge = 3;
+		$deliveryCharge = 3.00;
 	}
 	else {
 		$deliveryCharge = 0;
