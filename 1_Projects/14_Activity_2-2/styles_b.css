@@ -25,7 +25,13 @@ td {
 	background-color: white;
 	padding: 12px;
 }
-
+th {
+	padding-Right: 10px;
+	background-color: white;
+}
+table, tr, td {
+	background-color: white;
+}
 ::-webkit-input-placeholder {
 	text-align: center;
 }
@@ -98,11 +104,4 @@ textarea:focus {
 .updateForm_col {
 		width: 365px;
 	text-align: center;
-}
-
-th {
-	padding-Right: 10px 
-}
-table, tr,th,td {
-	background-color: white;
 }

@@ -2,6 +2,8 @@ body {
 	background-image: url(http://40.media.tumblr.com/3dcd4b253ea6f7b301d0b3b17b090f59/tumblr_nkshrjpP0j1s7b2p8o3_1280.jpg);
 	background-size: 100%;
 	margin: 25px;
+	background-size: cover;
+	background-repeat: repeat-y;
 	font-family: cantata-one;
 }
 h1 {
@@ -57,6 +59,8 @@ input {
 	background-color: tomato;
 	color: black;
 	width: 440px;
+	width: 35%;
+	padding: 35px;
 }
 sub {
 	color: lightgray;
@@ -76,9 +80,7 @@ sub {
 	 font-style: bold;
 }
 .receipt  {
-	/*width: 1020px;*/
 	width: 35%;
-	/*height: 230px;*/
 	text-align: left;
 	background-color: red;
 	padding: 25px;
@@ -96,5 +98,15 @@ sub {
 .hello {
 	width: 35%;
 	padding: 35px;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.88);
+}
+table, tr, td {
+	border: 1px solid black;
+	border-color: black;
+	padding: 3px;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+	width: 100%;
 }

@@ -12,7 +12,81 @@
 <h1>Scholarship Calculator</h1><BR><BR>
 <div class = "hello">
 <p>
-	This page will calculate the entrance scholarship you will recieve based upon your top six marks.<BR><BR> After the marks are recieved, they will be converted to a 4.0 GPA scale based upon on the below table (fig. 1). Following that, they will be averaged into one GPA and your schaolarship will be calculated based on the below (fig. 2).
+	This page will calculate the entrance scholarship you will recieve based upon your top six marks.
+	<BR><BR>
+	After the marks are recieved, they will be converted to a 4.0 GPA scale using <em>fig. 1</em>.
+	
+	<table>
+		<tr>
+			<td colspan = "2">fig. 1</td>
+		</tr>
+		<tr>
+			<td>Grade Range</td><td>Grade Point Value</td>
+		</tr>
+		<tr>
+			<td>85 - 100</td><td>4.0</td>
+		</tr>
+		<tr>
+			<td>80 - 84</td><td>3.7</td>
+		</tr>
+		<tr>
+			<td>77 - 79</td><td>3.3</td>
+		</tr>
+		<tr>
+			<td>73 - 76</td><td>3.0</td>
+		</tr>
+		<tr>
+			<td>70 - 72</td><td>2.7</td>
+		</tr>
+		<tr>
+			<td>67 - 69</td><td>2.3</td>
+		</tr>
+		<tr>
+			<td>63 - 66</td><td>2.0</td>
+		</tr>
+		<tr>
+			<td>60 - 62</td><td>1.7</td>
+		</tr>
+		<tr>
+			<td>57 - 59</td><td>1.3</td>
+		</tr>
+		<tr>
+			<td>53 - 57</td><td>1.0</td>
+		</tr>
+		<tr>
+			<td>50 - 52</td><td>0.7</td>
+		</tr>
+		<tr>
+			<td>0 - 49</td><td>0.0</td> <!--&nbsp&nbsp-->
+		</tr>
+	</table>
+	
+	<BR><BR>
+	Following that, they will be averaged into one GPA and your schaolarship will be calculated using <em>fig. 2</em>.
+	<BR><BR>
+	<table>
+		<tr>
+			<td colspan = "2">fig. 2</td>
+		</tr>
+		<tr>
+			<td>Average GPA</td><td>Scholarship Amount</td>
+		</tr>
+		<tr>
+			<td>3.7 <= GPA <= 4.0</td><td>$5000.00</td>
+		</tr>
+		<tr>
+			<td>2.7 <= GPA < 3.7</td><td>$2000.00</td>
+		</tr>
+		<tr>
+			<td>1.7 <= GPA < 2.7</td><td>$300.00</td>
+		</tr>
+		<tr>
+			<td>0.7 <= GPA < 1.7</td><td>$20.00</td>
+		</tr>
+		<tr>
+			<td>0.0 <= GPA < 0.7</td><td>$0.00</td>
+		</tr>
+	</table>
 </p>
 </div>
 <!--MARK INPUT-->
