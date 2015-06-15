@@ -14,7 +14,7 @@ h1 {
 h2 {
 	font-style: bold;
 	font-size: 16px;
-	color: rgba(0, 153, 255, 0.89);
+	color: ghostwhite;
 	display: inline;
 }
 h3 {
@@ -34,7 +34,7 @@ div {
 	
 }
 .box {
-	width: 150px;
+	width: 110px;
 	height: 100%;
 	text-align: center;
 	background-color: rgba(42, 42, 42, 0.74);
@@ -53,8 +53,10 @@ input {
 	width: 45px;	
 	display: inline;
 }
-#order {
-	background-color: red;
+#calc {
+	background-color: tomato;
+	color: black;
+	width: 440px;
 }
 sub {
 	color: lightgray;
@@ -69,7 +71,7 @@ sub {
 	 margin-right: auto;
      padding: 0!important;
      font: inherit;
-	 color: blue;
+	 color: #1e1e1e;
 	 font-size: 35px;
 	 font-style: bold;
 }
@@ -90,4 +92,9 @@ sub {
 .total {
 	color: blue;
 	font-size: 25px;
+}
+.hello {
+	width: 35%;
+	padding: 35px;
+	background-color: white;
 }
