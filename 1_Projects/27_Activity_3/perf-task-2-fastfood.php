@@ -19,13 +19,13 @@
 ORDER: <input type = "number" min = "0" name = "orderVal1" value = "" ></input>
 </div>
 -->
-
+<form action = "perf-task-2-fastfood.php" method = "get">
 <?php
 include("DBC.php");
 
 $sql = "SELECT * FROM restaurant_menu_items";
 $result = mysql_query($sql, $db);
-echo "<form action = 'perf-task-2-fastfood.php' method = 'get'>";
+// echo "";
 while ($row = mysql_fetch_array($result)) {
 	echo "<div class = 'box'>
 	<img src = '" . $row['img'] .  "'>
@@ -35,24 +35,21 @@ while ($row = mysql_fetch_array($result)) {
 	</div>";
 	
 }
-echo "</form>";
-//COMPUTE ORDER
-echo "<div class = 'box' id = 'order'>
-	<h2>TALLY ORDER</h2>
-	<sub>&</sub>
-	<h2>PRINT RECIPT</h2><BR>
-	<a class = 'button' href = '/perf-task-2-fastfood.php?tally=yes'><strong>DO IT!</strong></a>
-	</div>";
-echo "";
+?>
+<!--COMPUTE ORDER-->
+<div class = 'box' id = 'order'>
+<h2>TALLY ORDER</h2>
+<sub>&</sub>
+<h2>PRINT RECIPT</h2><BR>
+<input type = class = "button" "button" name = "tally" value = "CLICK!"></div>
+</form>
+<!--<a class = 'button' href = '/perf-task-2-fastfood.php?tally=yes'><strong>DO IT!</strong></a>"-->
 
+<?php
 if ($_GET['tally'] == "yes") {
 	// LOGIC ON COMPUTING DELIVERARY CHARGES
 	 
 	
 }
-
-
-
-
 ?>
 </body>
