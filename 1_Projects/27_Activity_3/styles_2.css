@@ -38,10 +38,13 @@ div {
 	
 }
 .box {
-	width: 200px;
+	width: 180px;
+	min-height: 1005;
 	text-align: center;
 	background-color: yellow;
-	padding: 10px;
+	padding: 25px;
+	margin: 25px;
+	
 }
 
 img {
