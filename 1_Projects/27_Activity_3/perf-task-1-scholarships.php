@@ -159,7 +159,18 @@ else if ($averagedGPA < 1.7 && $averagedGPA >= 0.7) {$amountAwarded = 20.00;}
 else {$amountAwarded = 0.00;}
 	
 	//Print Machine 
-	echo "<div class = 'receipt'><h3>Marks</h3><BR><BR>";
+	echo "<div class = 'receipt'><h3>Summary</h3><BR><BR>";
+	echo "<table>
+	<tr>
+		<td>Course</td><td>Grade (%)</td><td>GPA</td>
+	</tr>";
+	while ($r != 6) {
+	echo "<table>
+	<tr>
+		<td>" . $r . "</td><td>" . $mark[$r] . "</td><td>". $gpa[$r]  . "</td>
+	</tr>";
+	}
+	echo "</table>";
 	echo "</div>";
 }
 function markToGPA($mark, $r) {
