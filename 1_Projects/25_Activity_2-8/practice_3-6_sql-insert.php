@@ -17,13 +17,13 @@ include("connectToDB.inc.php"); // connect to server
 
 echo "<form action='' method='POST'>
 
-	First Name: <input type='text' name='firstNameVal' value=''></input>
+	First Name: <input type='text' required name='firstNameVal' value=''></input>
 	
-	Last Name: <input type='text' name='lastNameVal' value=''></input>
+	Last Name: <input type='text' required name='lastNameVal' value=''></input>
 	
-	Age: <input type='text' name='ageVal' value=''></input>
+	Age: <input type='number' required min='0' name='ageVal' value=''></input>
 	
-	Favourite Food: <input type='text' name='fav_foodVal' value=''></input>
+	Favourite Food: <input required type='text' name='fav_foodVal' value=''></input>
 	
 	<input type='submit' name='submitBtn' value='Insert'>";
 

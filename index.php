@@ -282,7 +282,17 @@
         <li>
             <a href="/1_Projects/25_Activity_2-8/nhl-players-and-or-activity-3-4.php">MySQL "NHL Players"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
-        </li> 
+        </li>
+
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/practice_3-6_sql-insert.php">MySQL "Class Insert Practice"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+        </li>
+
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/activity_3-2_info-about-countries_insert.php">MySQL "Country Insert Test"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+        </li>
         <!--
 		<li><a href="[LINK]">Activity 2.2 "Part A"</a>
             <br><a target="_blank" class="source" href="[LINK]">See Code Source</a>

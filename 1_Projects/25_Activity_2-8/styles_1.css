@@ -29,5 +29,32 @@ tr {
 	border-color: #ffffff;
 }
 td {
-	padding: px;
+	padding-left: 15px;
+	padding-right:  15px;
+}
+input {
+	width: 100%;
+	font-family: lekton, sans-serif;
+	border-color: rgba(206, 7, 7, 0.65);
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.special {
+	border-color: #ce0909;
+	width: auto;
+	color: rgba(255, 255, 255, 0.89);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #000000;
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
