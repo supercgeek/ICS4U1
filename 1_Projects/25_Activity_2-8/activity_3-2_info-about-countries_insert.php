@@ -19,7 +19,7 @@ $result = mysql_query($sql, $db);
 echo "<table>"; // start the table outside of the while loop
 echo "<tr><td>Flag</td><td>Country</td><td>Population</td><td>Size (km<sup>2</sup>)</td><td>Density (people per km<sup>2</sup>)</td></tr>";
 
-echo "<form action='' method='POST'><tr><td><input type='text' placeholder='Enter Image URL' required name='flagVal' value=''></td><td><input type='text' placeholder='Enter Country Name' required name='countryVal' value=''></td><td><input type='number' min='0' placeholder='Enter Population' required name='populationVal' value=''></td><td><input type='number' min='0' placeholder='Enter Size'  required name='sizeVal' value=''></td><td><input type='number' min='' disabled='true' placeholder='//TO BE COMPUTED//' name='' value=''></td></tr><input class='special' HREF='javascript:location.reload();' type='submit' name='submitBtn' value='Click to Insert New Country'></form><BR>";
+echo "<form action='' method='POST'><tr><td><input type='text' placeholder='Enter Image URL' required name='flagVal' value=''></td><td><input type='text' placeholder='Enter Country Name' required name='countryVal' value=''></td><td><input type='number' min='0' placeholder='Enter Population' required name='populationVal' value=''></td><td><input type='number' min='0' placeholder='Enter Size'  required name='sizeVal' value=''></td><td><input type='number' min='' disabled='true' placeholder='//TO BE COMPUTED//' name='' value=''></td></tr><input class='special' type='submit' name='submitBtn' value='Click to Insert New Country'></form><BR>";
 
 echo "<BR>";
 // basic output of the data from the table
@@ -57,6 +57,9 @@ if ($_POST['submitBtn']) {
 	// insert information into the table
 	$sql_insert = "INSERT INTO country_info (country, population, size, flag) VALUES ('$countryVal', '$populationVal', '$sizeVal', '$flagVal')"; // THE MAGIC LINE
 	$result_insert = mysql_query($sql_insert, $db);
+echo "<script type='text/javascript'>
+		window.location.replace('activity_3-2_info-about-countries_insert.php');
+	  </script>";
 }
 mysql_close($db);
 ?>
