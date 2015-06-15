@@ -9,13 +9,25 @@
 <h2>Inserting Records into a MySQL Database Table</h2>
 
 <?php
-include("connectToDB.inc.php"); // connect to server 
+include("connectToDB.inc.php"); // connect to server
 
+if ($_GET['delete'] == "yes") {
+	$selected_id = $_GET['selected_id'];
+//	echo "ID CHECK: " .  $selected_id;
+	if ($_GET['confirm'] == "yes") {
+		// actually delete the information
+		$queryDelete = "DELETE FROM class_information WHERE student_id='" . $selected_id . "'";
+		$result = mysql_query($queryDelete, $db);
+	} else {
+		echo "Are you sure you want to delete this record? <a href='practice_3-6_sql-insert.php?delete=yes&selected_id=" . $selected_id . "&confirm=yes'>YES</a> | <a href='practice_3-6_sql-insert.php'>NO</a><BR>";
+
+	}
+}
 // create form to input data into the table
 
 //echo "<form action='" . $_SERVER['PHP_SELF'] . "' method='POST'> <--- THiS IS WEIRD CODE...
 
-echo "<form action='' method='POST'>
+echo "<BR><form action='' method='POST'>
 
 	First Name: <input type='text' required name='firstNameVal' value=''></input>
 	
@@ -49,7 +61,7 @@ echo "<hr size='1'>";
 while ($myrow = mysql_fetch_array($result))
 {
 	// data from the table is stored in an associative array
-	echo $myrow['student_id'] . " | " . $myrow['first_name'] ." | " . $myrow['last_name'] . " | " . $myrow['age']. " | " . $myrow['fav_food'] . "<br />";
+	echo $myrow['student_id'] . " | " . $myrow['first_name'] ." | " . $myrow['last_name'] . " | " . $myrow['age']. " | " . $myrow['fav_food'] . " | <a href='practice_3-6_sql-insert.php?delete=yes&selected_id=" . $myrow['student_id'] . "'>DELETE</a><BR>";
 }
 ?>
 </body>
