@@ -22,7 +22,7 @@ h2 {
 h3 {
 	display: inline;
 
-	font-style: italic;
+	/*font-style: italic;*/
 	/*background-color: red;*/
 	color: white;
 	padding-top: 17px;
@@ -102,9 +102,21 @@ table, tr, td {
 	border: 1px solid black;
 	border-color: black;
 	padding: 3px;
+	/*break-word: word-wrap;*/
+	width: 122px; 
 	text-align: center;
 }
 table {
     border-collapse: collapse;
 	width: 100%;
+	table-layout: fixed;
+}
+.summ {
+	border: 2px solid white;
+	color: white;
+}
+#horray {
+	font-size: 25px;
+	color: tomato;
+	font-style: bold;
 }

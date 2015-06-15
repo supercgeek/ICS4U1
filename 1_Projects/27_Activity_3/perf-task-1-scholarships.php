@@ -149,6 +149,7 @@ if ($_POST['go'] == "calculate") {
 		$gpa[$r] = markToGPA($mark, $r);
 		// echo "<BR> GPA: " . $gpa[$r] . "<BR>";
 	}
+	$averagedMark = ($mark[1] + $mark[2] + $mark[3] + $mark[4] + $mark[5] + $mark[6])/6;
 	$averagedGPA = ($gpa[1] + $gpa[2] + $gpa[3] + $gpa[4] + $gpa[5] + $gpa[6])/6;
 	
 //LOGIC: AVERAGE GPA & DETIRMINE SCHOLARSHIP
@@ -160,17 +161,14 @@ else {$amountAwarded = 0.00;}
 	
 	//Print Machine 
 	echo "<div class = 'receipt'><h3>Summary</h3><BR><BR>";
-	echo "<table>
-	<tr>
-		<td>Course</td><td>Grade (%)</td><td>GPA</td>
-	</tr>";
-	while ($r != 6) {
-	echo "<table>
-	<tr>
-		<td>" . $r . "</td><td>" . $mark[$r] . "</td><td>". $gpa[$r]  . "</td>
-	</tr>";
+	echo "<table class = 'summ'><tr class = 'summ'><td class = 'summ'>Course</td><td class = 'summ'>Grade (%)</td><td>GPA</td></tr>";
+	while ($p != 6) {
+	$p++;
+	echo "<tr class = 'summ'><td class = 'summ'>" . $p . "</td><td class = 'summ'>" . $mark[$p] . "</td><td class = 'summ'>". $gpa[$p]  . "</td></tr>";
 	}
-	echo "</table>";
+	echo "<tr class = 'summ'><td class = 'summ'>N/A</td><td class = 'summ'> Avg: " . round($averagedMark, 0) . "</td><td class = 'summ'> Avg: ". $averagedGPA  . "</td></tr>";
+	echo "</table><BR>";
+	echo "<span id = 'horray'>You will recieve: $" . $amountAwarded . " towards your university tuition.</span>";
 	echo "</div>";
 }
 function markToGPA($mark, $r) {
