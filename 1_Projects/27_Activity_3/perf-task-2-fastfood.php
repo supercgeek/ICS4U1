@@ -9,7 +9,6 @@
 	</head>
 <body>
 <h1>Fast Food Yums!</h1><h3>Online Order Form</h3><BR><BR>
-
 <!--
 <div class = "box">
 <img src="http://pixel.brit.co/wp-content/uploads/2013/05/8-BlackBurger.jpg">
@@ -40,7 +39,6 @@ while ($row = mysql_fetch_array($result)) {
 	$itemPrices[($row['item_id'])] = $row['cost'];
 }
 ?>
-
 <!--TALLY ORDER-->
 <div class = 'box' id = 'order'>
 <h2>TALLY ORDER</h2>
@@ -48,12 +46,8 @@ while ($row = mysql_fetch_array($result)) {
 <h2>PRINT RECEIPT</h2><BR>
 <input type = "submit" class = "button" name = "tally" value = "CLICK!"></div>
 </form>
-
 <?php
 if ($_GET['tally'] == "CLICK!") {
-	
-	
-	
 	//Create Array of Item Quantities Ordered
 	while ($r != count($itemNames, COUNT_RECURSIVE)) {
 		$r++;
