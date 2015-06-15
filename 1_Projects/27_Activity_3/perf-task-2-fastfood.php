@@ -6,7 +6,6 @@
 
 		<!--STYLESHEET LOAD-->
 		<link rel="stylesheet" type="text/css" href="styles_2.css">
-		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 	</head>
 <body>
 <h1>Fast Food Yums!</h1><h3>Online Order Form</h3><BR><BR>
