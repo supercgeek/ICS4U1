@@ -3,7 +3,6 @@
 	<head>
 		<title>Performance Task #2 "Fast Food Menu"</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
 		<!--STYLESHEET LOAD-->
 		<link rel="stylesheet" type="text/css" href="styles_2.css">
 	</head>
