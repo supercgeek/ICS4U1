@@ -51,7 +51,7 @@
 			<td>57 - 59</td><td>1.3</td>
 		</tr>
 		<tr>
-			<td>53 - 57</td><td>1.0</td>
+			<td>53 - 56</td><td>1.0</td>
 		</tr>
 		<tr>
 			<td>50 - 52</td><td>0.7</td>
@@ -136,12 +136,13 @@
 
 <?php
 if ($_GET['go'] == "calculate") {
-	
-	//Create Array of Six Marks
 	while ($r != 6) {
 		$r++;
 		$getString = "mark" . $r;
+		//Create an Array of Six Marks
 		$mark[$r] = $_GET[$getString];
+		//Create an Array of Six corresponding GPAs
+		$gpa[$r] = markToGPA($mark[$r]);
 	}
 	//LOGIC: CONVERT MARKS TO GPAs
 	
@@ -150,24 +151,56 @@ if ($_GET['go'] == "calculate") {
 	
 	// Print Recipt 
 	echo "<div class = 'receipt'><h3>Marks</h3><BR><BR>";
-	while ($p != count($itemNames, COUNT_RECURSIVE)) {
-		$p++;
-		if ($itemQuants[$p] < 1){
-			
-		} else {
-		$currentItemTotal = ($itemQuants[$p] * $itemPrices[$p]);
-		$subTotal = $subTotal + $currentItemTotal;
-		echo "<strong>" . $itemNames[$p] . "</strong><BR><span class = 'mono'> X"   . $itemQuants[$p] . " @ $" . $itemPrices[$p] . " =  $" . $currentItemTotal . "</span><BR><BR>";
-		}
-	}
-	// LOGIC ON COMPUTING DELIVERARY CHARGES
-	$deliveryFee = delivery($subTotal);
-	$taxFee = tax($subTotal);
-	echo "<span class = 'mono'>Subtotal: $" . $subTotal . "</span><BR>";	
-	echo "<span class = 'mono'>Delivery Charge: $" . $deliveryFee . "</span><BR>";
-	echo "<span class = 'mono'>Tax @ 13%: $" . $taxFee . "</span><BR><BR>";
-	echo "<span class = 'total'><strong> Total: " . total($subTotal, $deliveryFee, $taxFee) . "</strong></span";
 	echo "</div>";
+}
+function markToGPA($mark, $r) {
+	if ($mark[$r] >= 85) {
+		$gpaConv = 4.0;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 80 && $mark[$r] <= 84) {
+		$gpaConv = 3.7;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 77 && $mark[$r] <= 79) {
+		$gpaConv = 3.3;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 73 && $mark[$r] <= 76) {
+		$gpaConv = 3.0;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 70 && $mark[$r] <= 72) {
+		$gpaConv = 2.7;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 67 && $mark[$r] <= 69) {
+		$gpaConv = 2.3;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 63 && $mark[$r] <= 66) {
+		$gpaConv = 2.0;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 60 && $mark[$r] <= 62) {
+		$gpaConv = 1.7;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 57 && $mark[$r] <= 59) {
+		$gpaConv = 1.3;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 53 && $mark[$r] <= 56 ) {
+		$gpaConv = 3.7;
+		return $gpaConv;
+	} else 
+	if ($mark[$r] >= 50 && $mark[$r] <= 52 ) {
+		$gpaConv = 0.7;
+		return $gpaConv;
+	} else {
+		$gpaConv = 0;
+		return $gpaConv;
+	}
 }
 ?>
 </body>
