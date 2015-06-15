@@ -9,7 +9,7 @@
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 	</head>
 <body>
-<h1>Test</h1>
+<h1>Fast Food Yums!</h1>
 
 
 <?php

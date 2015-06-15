@@ -1,0 +1,12 @@
+body {
+	background-image: url(http://40.media.tumblr.com/2fe4e296c98d8ac2a35f9ca9facd2540/tumblr_mga7yigWKZ1rrj5lzo1_1280.jpg);
+	background-size: 100%;
+	margin: 25px;
+}
+
+h1 {
+	color: yellow;
+	background-color: blue;
+	margin: 5px;
+	padding: 5px;
+}
