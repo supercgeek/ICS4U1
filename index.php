@@ -314,12 +314,12 @@
             <a href="/1_Projects/27_Activity_3/perf-task-1-scholarships.php">Performance Task #1 "University Scholarships"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/27_Activity_3">See Code Source</a>
         </li>    
-        
+         -->
         <li>
             <a href="/1_Projects/27_Activity_3/perf-task-2-scholarships.php">Performance Task #2 "Fast Food Menu"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/27_Activity_3">See Code Source</a>
         </li>   
-         -->
+        
 
     </ul>
     <!-- TEMPLATE
