@@ -12,6 +12,7 @@ include("connectToDB.inc.php"); // connect to server
 
 if ($_GET['delete'] == "yes") {
 	$selected_id = $_GET['selected_id'];
+//	echo "ID CHECK: " .  $selected_id;
 	if ($_GET['confirm'] == "yes") {
 		// actually delete the information
 		$queryDelete = "DELETE FROM country_info WHERE id='" . $selected_id . "'";
