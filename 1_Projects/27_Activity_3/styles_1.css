@@ -23,7 +23,7 @@ h3 {
 	display: inline;
 
 	font-style: italic;
-	background-color: red;
+	/*background-color: red;*/
 	color: white;
 	padding-top: 17px;
 	padding-bottom: 8px;
@@ -78,11 +78,11 @@ sub {
 	 font-style: bold;
 }
 .receipt  {
-	width: 35%;
+	width: 440px;
 	text-align: left;
-	background-color: red;
-	padding: 25px;
-	margin: 25px;
+	background-color: rgba(42, 42, 42, 0.74);
+	padding: 35px;
+	/*margin: 25px;*/
 }
 .mono {
 	font-family: monospace;

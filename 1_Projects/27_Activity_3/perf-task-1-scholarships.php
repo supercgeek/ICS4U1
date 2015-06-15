@@ -135,21 +135,30 @@
 </form>
 
 <?php
-if ($_GET['go'] == "calculate") {
+if ($_POST['go'] == "calculate") {
+	
+	//LOGIC: CONVERT MARKS TO GPAs
 	while ($r != 6) {
 		$r++;
 		$getString = "mark" . $r;
 		//Create an Array of Six Marks
-		$mark[$r] = $_GET[$getString];
+		$mark[$r] = $_POST[$getString];
+		// echo "<BR> mark: " . $mark[$r] . "<BR>";
+		
 		//Create an Array of Six corresponding GPAs
-		$gpa[$r] = markToGPA($mark[$r]);
+		$gpa[$r] = markToGPA($mark, $r);
+		// echo "<BR> GPA: " . $gpa[$r] . "<BR>";
 	}
-	//LOGIC: CONVERT MARKS TO GPAs
+	$averagedGPA = ($gpa[1] + $gpa[2] + $gpa[3] + $gpa[4] + $gpa[5] + $gpa[6])/6;
 	
-	//LOGIC: AVERAGE GPA & DETIRMINE SCHOLARSHIP
+//LOGIC: AVERAGE GPA & DETIRMINE SCHOLARSHIP
+if ($averagedGPA >= 3.7) {$amountAwarded = 5000.00;}
+else if ($averagedGPA < 3.7 && $averagedGPA >= 2.7) {$amountAwarded = 2000.00;}
+else if ($averagedGPA < 2.7 && $averagedGPA >= 1.7) {$amountAwarded = 300.00;}
+else if ($averagedGPA < 1.7 && $averagedGPA >= 0.7) {$amountAwarded = 20.00;}
+else {$amountAwarded = 0.00;}
 	
-	
-	// Print Recipt 
+	//Print Machine 
 	echo "<div class = 'receipt'><h3>Marks</h3><BR><BR>";
 	echo "</div>";
 }
@@ -195,6 +204,7 @@ function markToGPA($mark, $r) {
 		return $gpaConv;
 	} else 
 	if ($mark[$r] >= 50 && $mark[$r] <= 52 ) {
+		echo "testell0";
 		$gpaConv = 0.7;
 		return $gpaConv;
 	} else {
