@@ -31,12 +31,28 @@ while ($row = mysql_fetch_array($result)) {
 	<img src = '" . $row['img'] .  "'>
 	<h2>" . $row['item'] .  "</h2>
 	<p class = 'price'><strong>$" . $row['cost'] .  "</strong></p>
-	ORDER: <input type = 'number' min = '0' name = '" . $row['item'] .  "Order_" . $row['item_id'] .  "' value = '' ></input>
+	ORDER: <input type = 'number' placeholder = '#' min = '0' name = '" . $row['item'] .  "Order_" . $row['item_id'] .  "' value = '' ></input>
 	</div>";
 	
 }
 echo "</form>";
-
+//COMPUTE ORDER
+echo "<div class = 'box' id = 'order'>
+	<h2>TALLY ORDER</h2>
+	<sub>&</sub>
+	<h2>PRINT RECIPT</h2><BR>
+	<a class = 'button' href = '/perf-task-2-fastfood.php?tally=yes'><strong>DO IT!</strong></a>
+	</div>";
 echo "";
+
+if ($_GET['tally'] == "yes") {
+	// LOGIC ON COMPUTING DELIVERARY CHARGES
+	 
+	
+}
+
+
+
+
 ?>
 </body>

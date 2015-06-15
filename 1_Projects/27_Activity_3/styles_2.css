@@ -39,7 +39,7 @@ div {
 }
 .box {
 	width: 180px;
-	min-height: 1005;
+	height: 230px;
 	text-align: center;
 	background-color: yellow;
 	padding: 25px;
@@ -59,4 +59,17 @@ img {
 input {
 	font-size: 15px;
 	width: 16%;	
+}
+#order {
+	background-color: red;
+}
+sub {
+	color: lightgray;
+	font-size: 30px;
+	/*font-style: italic;*/
+}
+.button, a {
+	font-style: bold;
+	font-size: 35px;
+	
 }
