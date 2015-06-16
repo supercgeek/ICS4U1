@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<!--STYLESHEET LOAD-->
+		<!--STYLESHEET LOAD-->
 		<link rel="stylesheet" type="text/css" href="styles_2.css">
 		<script src="http://use.edgefonts.net/lekton:n7,i4,n4:all.js"></script>
 </head>
