@@ -303,7 +303,17 @@
             <a href="/1_Projects/25_Activity_2-8/voting.php">MySQL "Voting!"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li>
+        
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/login.php">MySQL "Santa's Workshop"</a><br><p class="cs">Coming Soon...</p>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+        </li>
 
+        
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/login.php">MySQL "Login Practice"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+        </li>
         
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
         <h3 id="S-HEADING">Section SIX</h3>
