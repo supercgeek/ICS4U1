@@ -1,7 +1,8 @@
 body {
 	/*BACKGROUND SETTINGS*/
-	background-image: url(http://quetraman.com/wp-content/uploads/2015/05/2014-architecture-high-school-best-design-on-architecture-high-school-1400x1000-1024x731.jpg);
+	background-image: url(http://41.media.tumblr.com/4b88952f34acdb5a861950eb929f3b4a/tumblr_nkldkkYcgR1thdnd3o1_500.jpg);
 	background-size: cover;
+	background-position: center;
 	/*background-color: #646464;*/
 	/*FONT SETTINGS*/
 	font-family: lekton, sans-serif;
@@ -40,4 +41,8 @@ input {
 .special {
 	width: 25%;
 	height: 30px;
+}
+.all {
+	background-color: rgba(255, 255, 255, 0.69);
+	padding: 10px;
 }

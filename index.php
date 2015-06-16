@@ -293,6 +293,11 @@
             <a href="/1_Projects/25_Activity_2-8/activity_3-2_info-about-countries_insert.php">MySQL "Country Insert Test"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
         </li>
+
+        <li>
+            <a href="/1_Projects/25_Activity_2-8/updating-records-fastest-cars.php">MySQL "The Fastest Cars"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+        </li>
         
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
         <h3 id="S-HEADING">Section SIX</h3>
