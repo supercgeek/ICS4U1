@@ -15,6 +15,7 @@ include("connectToDB.inc.php");
 $sql = "SELECT * FROM vote_table";
 $result = mysql_query($sql, $db);
 // echo "";
+
 while ($row = mysql_fetch_array($result)) {
 	echo "<div class = 'box'>
 	<img src = '" . $row['image_filename'] .  "'>
@@ -26,30 +27,38 @@ while ($row = mysql_fetch_array($result)) {
 	<input class = 'button' type = 'submit' name = 'vote_" . $row['vote_id'] . "' value = 'VOTE'></div>
 	</form>
 	</div>";
-	if ($row['vote_id'] = 1) {
-		$count1 = $row['num_votes'];
-		// echo $count1;
-	} else {
-		$count2 = $row['num_votes'];
-		// echo $count2;
-	}
+	$cur = $row['vote_id'];
+	$newVoteNumber[$cur] = $row['num_votes'];
 }
-echo "1: " . $count1;
-
-echo "<BR>2: " . $count2;
 
 if ($_GET['vote_1']) {
 	echo "<div class = 'receipt'>
-	<strong>Thanks for Voting!</strong><BR>
-	<h3>The results have been refreshed!</h3>
+	<h3><a href = 'voting.php?refresh=yes'>Click Here to Refresh.</a></h3>
 	</div>";
-	echo "1: " . $count1;
-	echo "<BR>2: " . $count2;
-	$query = "UPDATE vote_table SET num_votes='" . (77) . "' WHERE vote_id='1'"; 
+//	echo "1: " . $count1;
+//	echo "<BR>2: " . $count2;
+	$uppedVoteNumber = $newVoteNumber[1] + 1;
+	$query = "UPDATE vote_table SET num_votes='" . $uppedVoteNumber . "' WHERE vote_id='1'"; 
 	$result = mysql_query($query, $db);
 }
 
+if ($_GET['vote_2']) {
+	echo "<div class = 'receipt'>
+	<strong>Thanks for Voting!</strong><BR>
+	<h3><a href = 'voting.php?refresh=yes'>Click Here to Refresh.</a></h3>
+	</div>";
+//	echo "1: " . $count1;
+//	echo "<BR>2: " . $count2;
+	$uppedVoteNumber = $newVoteNumber[2] + 1;
+	$query = "UPDATE vote_table SET num_votes='" . $uppedVoteNumber . "' WHERE vote_id='2'"; 
+	$result = mysql_query($query, $db);
+}
 
+if ($_GET['refresh'] == "yes") {
+	echo "<script type='text/javascript'>
+		 window.location.replace('voting.php');
+		 </script>";
+}
 mysql_close($db);  // close connection to the database
 ?>
 </body>
