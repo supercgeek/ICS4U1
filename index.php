@@ -305,8 +305,8 @@
         </li>
         
         <li>
-            <a href="/1_Projects/25_Activity_2-8/login.php">MySQL "Santa's Workshop"</a><br><p class="cs">Coming Soon...</p>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a>
+            <a href="/1_Projects/25_Activity_2-8/playing-santa.php">MySQL "Santa's Workshop"</a><br>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a><p class="cs" id="special_cs">Coming Soon...</p>
         </li>
 
         
@@ -317,14 +317,12 @@
         
         <!--SECTION SIX PROJECTS ARE BELOW (OTHER STUFF)-->
         <h3 id="S-HEADING">Section SIX</h3>
-        <p class="cs">Coming Soon...</p>
-
-        <!--
+    
         <li>
             <a href="/1_Projects/26_Activity_2-9/careers-in-computer-science.php">Careers in Computer Science</a><br>
-            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/26_Activity_2-9">See Code Source</a>
+            <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/26_Activity_2-9">See Code Source</a><p class="cs" id="special_cs">Coming Soon...</p>
         </li>
-        -->  
+        
 
         <!--PERFORMANCE TASK-->
        <h3 id="S-HEADING">Performance Task</h3>

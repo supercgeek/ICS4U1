@@ -75,3 +75,7 @@ a:hover {
 	font-style: italic;
 	text-transform: uppercase;
 }
+#special_cs {
+	display: inline;
+	color: orange;
+}
