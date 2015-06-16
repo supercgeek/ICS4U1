@@ -34,3 +34,10 @@ tr {
 td {
 	padding: 7px;
 }
+input {
+	width: 90%;
+}
+.special {
+	width: 25%;
+	height: 30px;
+}
