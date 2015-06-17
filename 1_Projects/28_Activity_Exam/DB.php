@@ -7,6 +7,7 @@ $db_databasename = "db205379_supercgeek";
 
 // database configurations (LOCAL HOST DEV) [DEFUNCT]
 //$db_servername = "internal-db.s205379.gridserver.com";
+//$db_username = "db205379";
 //$db_password = "5Kz/0o3Pn1s'qusk~r3.";
 //$db_databasename = "db205379_supercgeek";
 
