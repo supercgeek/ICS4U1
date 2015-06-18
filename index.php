@@ -341,32 +341,32 @@
        <h3 id="S-HEADING">Exam</h3>
 
         <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/exam-q1.php">Part 1</a><br>
+            <a href="/1_Projects/28_Activity_Exam/exam-q1.php">Part 1</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
 
         <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/exam-q2.php">Part 2</a><br>
+            <a href="/1_Projects/28_Activity_Exam/exam-q2.php">Part 2</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
 
          <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/exam-q3.php">Part 3</a><br>
+            <a href="/1_Projects/28_Activity_Exam/exam-q3.php">Part 3</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
 
         <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/exam-q4.php">Part 4</a><br>
+            <a href="/1_Projects/28_Activity_Exam/exam-q4.php">Part 4</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
         
         <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/exam-q5.php">Part 5</a><br>
+            <a href="/1_Projects/28_Activity_Exam/exam-q5.php">Part 5</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
 
         <li>
-            <a href="/1_Projects/1_Projects/28_Activity_Exam/test_marks.php">Part 6 "Test Marks"</a><br>
+            <a href="/1_Projects/28_Activity_Exam/test_marks.php">Part 6 "Test Marks"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/28_Activity_Exam">See Code Source</a>
         </li>
 
