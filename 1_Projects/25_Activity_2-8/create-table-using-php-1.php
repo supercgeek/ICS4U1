@@ -9,7 +9,6 @@ $sql = 'CREATE TABLE employee( '.
        'emp_salary   INT NOT NULL, '.
        'join_date    timestamp NOT NULL, '.
        'primary key ( emp_id ))';
-
 // query the database
 $result = mysql_query($sql, $db);
 
