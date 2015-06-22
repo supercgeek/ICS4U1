@@ -1,0 +1,55 @@
+body {
+	/*BACKGROUND SETTINGS*/
+	background-image: url(http://www.turbophoto.com/Christmas-Stock-Photos/christmas-hires-sample.jpg);
+	background-size: cover;
+	background-position: center;
+	/*background-color: #646464;*/
+	/*FONT SETTINGS*/
+	font-family: lekton, sans-serif;
+	color: #c30f0f;
+	line-height: 20px;
+	font-weight: bold;
+}
+a {
+	color: green;
+	/*font-weight: bold;*/
+}
+.alert {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+img {
+	width: 75px;
+	height: 75px;
+}
+
+table, th, td {
+	border: 2px solid #262626;
+	padding: 4px;
+	border-collapse: collapse;
+}
+tr {
+	border-color: #ffffff;
+}
+td {
+	padding: 7px;
+}
+input {
+	width: 90%;
+}
+.special {
+	width: 50%;
+	height: 30px;
+}
+.all {
+	background-color: rgba(255, 255, 255, 0.69);
+	padding: 10px;
+}
+
+#big {
+	font-size: 45px;
+	margin: 25px;
+	color: white;
+	
+}

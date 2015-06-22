@@ -8,6 +8,11 @@
 	</head>
 <body>
 <h1>Santa Clause's</h1><h3>Gift Giving Machine</h3><BR><BR>
+<!--PRINT OTHER OPTIONS TILE-->
+<div class = 'box' id = 'order'>
+<h2 class = "">(1)<a href = "santas-workshop.php"><BR>SANTA'S WORKSHOP</h2></a><BR>
+<h2 class = "">(2)<a href = "play-scrooge.php"><BR>PLAY SCROOGE</h2></a><BR>
+</div>
 <?php
 include("connectToDB.inc.php");
 
@@ -66,13 +71,6 @@ while ($kidrow = mysql_fetch_array($result)) {
 		}
 	}
 ?>
-
-<!--PRINT OTHER OPTIONS TILE-->
-<div class = 'box' id = 'order'>
-<h2 class = "">(1)<a href = "santas-workshop.php"><BR>SANTA'S WORKSHOP</h2></a><BR>
-<h2 class = "">(2)<a href = "play-scrooge.php"><BR>PLAY SCROOGE</h2></a><BR>
-</div>
-
 <?php
 ob_start();
 //INSERT CAPTURED TOY INFORMATION INTO DELIVERY DATABASE 
