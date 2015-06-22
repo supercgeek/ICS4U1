@@ -9,7 +9,7 @@
 <body>
 <h1>Santa Clause's</h1><h3>Gift Giving Machine</h3><BR><BR>
 <?php
-include("/Users/supercgeek/GitHub/ICS4U1/1_Projects/25_Activity_2-8/connectToDB.inc.php");
+include("/1_Projects/25_Activity_2-8/connectToDB.inc.php");
 
 //PRINT CHARACTER TILES
 $sql = "SELECT * FROM sc_kids_info";
@@ -31,7 +31,7 @@ while ($kidrow = mysql_fetch_array($result)) {
 
 	//CREATE GIFT DROPDOWN MENU
 	function giftDrop($kidRef) {
-	include("/Users/supercgeek/GitHub/ICS4U1/1_Projects/25_Activity_2-8/connectToDB.inc.php");
+	include("/1_Projects/25_Activity_2-8/connectToDB.inc.php");
 	echo "<form action = 'playing-santa.php' method = 'get'>";
 		echo "<select name='id'>";
 		echo "<option value = ''> Pick a Toy </option>";
@@ -46,7 +46,7 @@ while ($kidrow = mysql_fetch_array($result)) {
 	echo "</form>";
 	}
 	function giftPrinter($kidRef) {
-	include("/Users/supercgeek/GitHub/ICS4U1/1_Projects/25_Activity_2-8/connectToDB.inc.php");
+	include("/1_Projects/25_Activity_2-8/connectToDB.inc.php");
 		$sql_3 = "SELECT item_id FROM sc_toys_delivered where kid_id = '" . $kidRef . "'";
 		$result_3 = mysql_query($sql_3, $db);
 		$c = 0;
