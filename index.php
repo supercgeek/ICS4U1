@@ -319,7 +319,7 @@
         <h3 id="S-HEADING">Section SIX</h3>
     
         <li>
-            <a href="/1_Projects/26_Activity_2-9/careers-in-computer-science.php">Careers in Computer Science</a><br>
+            <a href="/1_Projects/26_Activity_2-9/careers-in-computer-science.html">Careers in Computer Science</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/26_Activity_2-9">See Code Source</a><p class="cs" id="special_cs">New!</p>
         </li>
         
