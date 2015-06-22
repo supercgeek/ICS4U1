@@ -29,7 +29,6 @@ div {
 	float: left;
 
 	margin-right: 15px; 
-	
 }
 .box {
 	width: 180px;
@@ -38,12 +37,9 @@ div {
 	background-color: yellow;
 	padding: 25px;
 	margin: 25px;
-	
 }
-
 img {
 	width: 100%;
-
 }
 .price {
 	font-family: sans-serif;
@@ -60,7 +56,6 @@ input {
 sub {
 	color: lightgray;
 	font-size: 30px;
-
 }
 .button {
      background: none!important;
@@ -91,4 +86,15 @@ sub {
 .total {
 	color: blue;
 	font-size: 25px;
+}
+.giveButton {
+	width: 50px;
+}
+a {
+	font-style: normal;
+	color: green;
+}
+.gifted {
+	padding: 1px;
+	margin: 2px;
 }
