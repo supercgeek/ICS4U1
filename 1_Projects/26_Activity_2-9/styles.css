@@ -1,0 +1,50 @@
+.container {
+	width: 50%;
+}
+
+#header {
+	text-align: center;
+	background-image: url(http://41.media.tumblr.com/68bf9b2a1aaceeefb2f7c71eb2794443/tumblr_nemwkg1cTo1qb8aggo1_1280.png);
+	color: aliceblue;
+	height: 15em;
+	text-shadow: 2px;
+	background-position: center;
+	text-shadow: 2px 5px rgba(255, 108, 0, 0.76);
+	text-transform: capitalize;
+	font-family: arvo, sans-serif;
+	font-weight: bold;
+}
+.nice-head {
+		font-family: arvo, sans-serif;
+		font-weight: bold;
+	
+}
+media-center {
+	max-width: 100px;
+}
+
+.mini-heads {
+	color: #646464;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+li {
+	font-size: 15px;
+	color: black;
+}
+a {
+/*	font-style: italic;*/
+}
+.letter {
+	font-size: 25px;
+	font-family: alike, sans-serif;
+	background-color: rgba(196, 196, 196, 0.57);
+	color: black;
+/*	width: 100%;*/
+}
+p {
+	padding: 25px;
+}
+img {
+	width: 100%;
+}
