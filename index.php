@@ -305,7 +305,7 @@
         </li>
         
         <li>
-            <a href="/1_Projects/25_Activity_2-8/playing-santa.php">MySQL "Santa's Workshop"</a><br>
+            <a href="/1_Projects/25_Activity_2-8/Santa_Claus/playing-santa.php">MySQL "Santa's Workshop"</a><br>
             <a target="_blank" class="source" href="https://github.com/supercgeek/ICS4U1/tree/master/1_Projects/25_Activity_2-8">See Code Source</a><p class="cs" id="special_cs">Coming Soon...</p>
         </li>
 
