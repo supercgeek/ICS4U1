@@ -7,7 +7,7 @@
 <body>
 	<h1 id = "big">Santa's Workshop</h1>
 	<div class = "all">
-			<h3><a href = "playing-santa.php">Return to Playing Santa</a></h3><BR><BR>
+			<h3><a href = "playing-santa.php">Return to Playing Santa</a></h3><BR>
 	<h3><a href = "kid_list.php">Edit The Kid List</a></h3>
 	<h3><a href = "toy_list.php">Edit The Toy List</a></h3>	
 	<div>
