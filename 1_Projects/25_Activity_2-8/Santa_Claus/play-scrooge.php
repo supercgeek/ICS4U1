@@ -15,9 +15,9 @@
 <h2 class = "">(2)<a href = "playing-santa.php"><BR>PLAY SANTA</h2></a><BR>
 </div>
 <?php
-	if ($_GET['delete'] == "yes") {
-			include("connectToDB.inc.php");
-		echo "<div class = 'box'>";
+if ($_GET['delete'] == "yes") {
+	include("connectToDB.inc.php");
+	echo "<div class = 'box'>";
 	$selected_id = $_GET['selected_id'];
 //	echo "ID CHECK: " .  $selected_id;
 	if ($_GET['confirm'] == "yes") {
@@ -28,6 +28,22 @@
 		echo "</div>";
 	} else {
 		echo "Are you sure you want to remove this gift? <BR><a href='play-scrooge.php?delete=yes&selected_id=" . $selected_id . "&confirm=yes'>YES</a> | <a href='play-scrooge.php'>NO</a><BR>";
+		echo "</div>";
+	}
+}
+if ($_GET['deleteall'] == "yes") {
+	include("connectToDB.inc.php");
+	echo "<div class = 'box'>";
+	$selected_id = $_GET['selected_id'];
+//	echo "ID CHECK: " .  $selected_id;
+	if ($_GET['confirm'] == "yes") {
+		// actually delete the information
+		$queryDelete = "DELETE FROM sc_toys_delivered WHERE kid_id='" . $selected_id . "'";
+		$result = mysql_query($queryDelete, $db);
+		echo "All Gifts Firebombed! Very Scrooge!!!";
+		echo "</div>";
+	} else {
+		echo "Are you sure you want to remove all gifts from this character? <BR><a href='play-scrooge.php?deleteall=yes&selected_id=" . $selected_id . "&confirm=yes'>YES</a> | <a href='play-scrooge.php'>NO</a><BR>";
 		echo "</div>";
 	}
 }
@@ -43,10 +59,11 @@ while ($kidrow = mysql_fetch_array($result)) {
 	<p class = 'price'><strong>" . $kidrow['delivery_address'] .  "</strong></p><BR>";
 	
 	$kidRef = $kidrow['kid_id'];
+	// echo "kidref: " . $kidRef;
 	//BESTOW GIFT DROPDOWN
-	giftDrop($kidRef);
+	echo "<a href ='play-scrooge.php?deleteall=yes&selected_id=" . $kidRef . "'>DELETE EVERYTHING</a><BR>";
 	
-	//PRINT BETOWN GIFTS [UNFINISHED]
+	//PRINT (AND MURDER) BETOWN GIFTS
 	giftPrintNDelete($kidRef);
 	echo "</div>";
 }
