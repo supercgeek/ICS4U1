@@ -61,10 +61,9 @@ while ($kidrow = mysql_fetch_array($result)) {
 			$c++;
 		}
 		//count number of items in ItemArray
-		// echo "<BR>Item ID = 0: " . $itemArray[0];
-		// echo "<BR>recur count: " . count($itemArray);
+		$arrayCount = count($itemArray);
 		echo "<BR><h3 class = 'gifted'>Gifts Recieved: </h3>"; 
-		for ($i = 0; $i <= 5; $i++) {
+		for ($i = 0; $i <= $arrayCount; $i++) {
 			$sql_4 = "SELECT item_name FROM sc_toy_information where item_id = '" . $itemArray[$i] . "'";
 			$result_4 = mysql_query($sql_4, $db);
 			while ($printrow = mysql_fetch_array($result_4)) {echo "<BR>"; echo $printrow['item_name'];}

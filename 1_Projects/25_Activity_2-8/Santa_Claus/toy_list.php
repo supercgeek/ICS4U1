@@ -79,7 +79,7 @@ echo "<table>
 </tr>";
 echo "
 <form action='toy_list.php' method='get'><tr>
-	<td>[N/A]</td><td><input type='text' placeholder='Enter Name' required name='name' value=''></td><td><input type='text' required placeholder='{optional}' name='description' value=''></td>
+	<td>[N/A]</td><td><input type='text' placeholder='Enter Name' required name='name' value=''></td><td><input type='text' placeholder='{optional}' name='description' value=''></td>
 	<td>[N/A]</td><input class='special' type='submit' name='submitBtn' value='Click to Insert New Record'><BR>
 </tr>";
 echo "<BR>";
